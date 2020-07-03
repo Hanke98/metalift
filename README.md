@@ -3,13 +3,13 @@
 1. install LLVM, [Rosette](https://emina.github.io/rosette/), and [Serval](https://github.com/uw-unsat/serval). 
    Make sure you run the package installers with `raco`.
 
-2. compile benchmarks and target in `tests/basic` to LLVM bytecode
-   `clang -O0 -c benchmarks.c -S -emit-llvm -o benchmarks.ll`
+2. compile benchmarks and target in `tests/basic` to LLVM bytecode <br />
+   `clang -O0 -c benchmarks.c -S -emit-llvm -o benchmarks.ll` <br />
    `clang -O0 -c target.c -S -emit-llvm -o target.ll`
 
-3. run serval to translate to LLVM bytecode to serval's interpreter instructions
-   `racket <serval dir>/bin/serval-llvm.rkt < benchmarks.ll > benchmarks.ll.rkt`
-   `racket <serval dir>/bin/serval-llvm.rkt < target.ll > target.ll.rkt`
+3. run serval to translate to LLVM bytecode to serval's interpreter instructions <br />
+   `racket <serval dir>/bin/serval-llvm.rkt < benchmarks.ll > benchmarks.ll.rkt` <br />
+   `racket <serval dir>/bin/serval-llvm.rkt < target.ll > target.ll.rkt` <br />
    Notice that serval translates in two steps: it first translates LLVM bytecode into
    its own Racket IR (output of `bytes->module`), and then converts each AST into
    instructions for its own symbolic interpreter (output of `print-module`) and prints them out.
