@@ -1,0 +1,19 @@
+Dafny program verifier version 1.9.7.30401, Copyright (c) 2003-2016, Microsoft.
+output/main_int0.dfy(43,2): Error BP5003: A postcondition might not hold on this return path.
+output/main_int0.dfy(40,28): Related location: This is the postcondition that might not hold.
+Execution trace:
+    (0,0): anon0
+    (0,0): anon3_Then
+output/main_int0.dfy(56,51): Error: assertion violation
+Execution trace:
+    (0,0): anon0
+output/main_int0.dfy(91,9): Error: assertion violation
+output/main_int0.dfy(71,7): Related location
+Execution trace:
+    (0,0): anon0
+output/main_int0.dfy(91,9): Error: assertion violation
+output/main_int0.dfy(72,8): Related location
+Execution trace:
+    (0,0): anon0
+
+Dafny program verifier finished with 9 verified, 4 errors

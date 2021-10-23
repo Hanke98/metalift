@@ -1,0 +1,3238 @@
+SKETCH version 1.7.2
+Benchmark = output/main_int0.sk
+[SATBackend] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[SATBackend] MAX LOOP UNROLLING = 6
+[SATBackend] MAX FUNC INLINING  = 5
+estimated size of main__Wrapper_ANONYMOUS
+stmt cnt: 4
+callee main_ANONYMOUS : 73
+
+[SATBackend] After prog.accept(partialEval)
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file null
+searching for file null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file null
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file null
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file cegis/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /bin/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /root/.sketch/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/cegis
+searching for file /root/.sketch/cegis
+searching for file /root/.sketch/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/bin/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /bin/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/sbin/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 6 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-5 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 7 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-6 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 10 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-9 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sbin/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /bin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /bin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 1 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-0 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/../sketch-backend/bindings/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 3 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-2 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 5 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-4 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 14 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-13 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 9 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-8 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 11 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-10 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 12 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-11 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 15 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-14 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 2 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-1 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 4 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-3 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 8 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-7 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 13 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-12 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Solver exit value: 0
+[SATBackend] === parallel trial w/ degree -1 (10) start ===
+Overriding inputs with 2
+boundmode = CALLNAME
+assuming  bounds checks
+BND W RAND = 10
+SOLVER RAND SEED = 11
+ optimization level = 6
+Reading SKETCH Program in File /root/.sketch/tmp/main_int0.sk/input0.tmp
+CREATING main__Wrapper_ANONYMOUS
+size = 10
+after ba size = 10
+CREATING main__WrapperNospec_ANONYMOUS
+size = 6
+after ba size = 6
+CREATING main_ANONYMOUS
+size = 195
+after ba size = 195
+CREATING loopInvariant_ANONYMOUS
+size = 88
+after ba size = 88
+CREATING postCondition_ANONYMOUS
+size = 80
+after ba size = 80
+CREATING map_ANONYMOUS
+size = 644
+after ba size = 644
+CREATING reduce_ANONYMOUS
+size = 902
+after ba size = 902
+CREATING collect_ANONYMOUS
+size = 54
+after ba size = 54
+CREATING do_map_ANONYMOUS
+size = 362
+after ba size = 362
+CREATING intlist_merge_KvPairList
+size = 311
+after ba size = 311
+CREATING stringlist_merge_KvPairList
+size = 311
+after ba size = 311
+CREATING do_reduce_ANONYMOUS
+size = 144
+after ba size = 144
+CREATING intlist_insert_KvPairList
+size = 85
+after ba size = 85
+CREATING stringlist_insert_KvPairList
+size = 85
+after ba size = 85
+CREATING int_get_KvPairList
+size = 172
+after ba size = 172
+CREATING string_get_KvPairList
+size = 172
+after ba size = 172
+CREATING intlist_put_KvPairList
+size = 457
+after ba size = 457
+CREATING stringlist_put_KvPairList
+size = 457
+after ba size = 457
+End of File
+ATTEMPT 0
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.0666667 0.999999 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_17: replacing with value 2 bnd= 3 totsize= 1.79176
+H__4_17 odds = 1/0.833333  (6, 6)  not replacing
+H__5_17 odds = 1/5  (1, 1)  not replacing
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333  (6, 6)  not replacing
+H__4_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_18: replacing with value 2 bnd= 3 totsize= 2.89037
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5 0.099668 (1, 1)  try to replace
+H__2_18: replacing with value 17 bnd= 32 totsize= 6.35611
+H__3_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_21: replacing with value 1 bnd= 3 totsize= 7.45472
+H__4_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_21: replacing with value 1 bnd= 3 totsize= 8.55333
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5  (1, 1)  not replacing
+H__3_23 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_23: replacing with value 1 bnd= 3 totsize= 9.65194
+H__4_23 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_23: replacing with value 2 bnd= 3 totsize= 10.7506
+H__5_23 odds = 1/5  (1, 1)  not replacing
+H__1_23 odds = 1/5 0.099668 (1, 1)  try to replace
+H__1_23: replacing with value 23 bnd= 32 totsize= 14.2163
+H__2_23 odds = 1/5  (1, 1)  not replacing
+H__3_24 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_24: replacing with value 1 bnd= 3 totsize= 15.3149
+H__4_24 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_24: replacing with value 2 bnd= 3 totsize= 16.4135
+H__5_24 odds = 1/5  (1, 1)  not replacing
+H__1_24 odds = 1/5  (1, 1)  not replacing
+H__2_24 odds = 1/5  (1, 1)  not replacing
+H__3_27 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_27: replacing with value 1 bnd= 3 totsize= 17.5121
+H__4_27 odds = 1/0.833333  (6, 6)  not replacing
+H__5_27 odds = 1/5  (1, 1)  not replacing
+H__1_27 odds = 1/5  (1, 1)  not replacing
+H__2_27 odds = 1/5  (1, 1)  not replacing
+H__6 odds = 1/1.66667 0.291313 (3, 3)  try to replace
+H__6: replacing with value 1 bnd= 2 totsize= 18.2053
+H__7_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__7_29: replacing with value 0 bnd= 2 totsize= 18.8984
+H__8_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 19.5916
+inlined 90 new size =8245
+inlined 72 new size =20326
+inlined 0 new size =17860
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17008
+* Final Problem size: Problem nodes = 17008
+  # OF CONTROLS:    19
+ control_ints = 13 	 control_bits = 6
+inputSize = 12	ctrlSize = 62
+Random seeds = 1
+!+ 00001000010000000010010010000101000000010100001011101001100001
+!+ H__4_17:0
+H__3_18:0
+H__5_23:1
+H__5_17:0
+H__2_17:8
+H__4_27:0
+H__5_18:0
+H__1_18:16
+H__5_24:0
+H__1_17:18
+H__5_21:0
+H__1_21:8
+H__2_21:1
+H__2_23:8
+H__1_24:1
+H__2_24:29
+H__5_27:0
+H__1_27:25
+H__2_27:16
+
+BEG CHECK
+ * After optims it became = 16934 was 17008
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.008 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.029
+!% 000000000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 820 was 17008
+ * After all optims it became = 816
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+Problem became UNSAT.802= ASSERT 801 : Assert at main_int0.sk:49 (5865302282264916733)
+ finder  hits = 465	 bstoreObjs=925	 sstorePages=1
+hitcount 	0	831	0
+hitcount 	1	1	0
+hitcount 	4	1	0
+hitcount 	5	92	0
+bucketsPerDepth 	0	370
+bucketsPerDepth 	1	195
+bucketsPerDepth 	2	41
+bucketsPerDepth 	3	5
+* TIME TO ADD INPUT :  0.016 ms 
+f# %assign: 3 clauses: 2761 learn: 0 restart: 0 decision: 0 propagated: 37
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.016 ms 
+* CHECK TIME:  0.029 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.016 CHECK TIME 0.029 TOTAL TIME 0.046
+RESULT = 1  
+**ROUND 0 : 19.5916 Round time:  0.15 ms 
+RNDDEG = 5
+SUMMRY , 2, 15, 313, 549, 585, 597, 871, 885, 1003, 1157, 1171, 1443, 1723, 1724, 1727
+ charness = 0
+POST-SUMMRY , 2, 15, 313, 549, 585, 597, 871, 885, 1003, 1157, 1171, 1443, 1723, 1724, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 1
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.133333 0.998894 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667  (6, 6)  not replacing
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667  (6, 6)  not replacing
+H__4_18 odds = 1/1.66667  (6, 6)  not replacing
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_21: replacing with value 0 bnd= 3 totsize= 1.79176
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__3_23 odds = 1/1.66667  (6, 6)  not replacing
+H__4_23 odds = 1/1.66667  (6, 6)  not replacing
+H__5_23 odds = 1/10  (1, 1)  not replacing
+H__1_23 odds = 1/10  (1, 1)  not replacing
+H__2_23 odds = 1/10  (1, 1)  not replacing
+H__3_24 odds = 1/1.66667  (6, 6)  not replacing
+H__4_24 odds = 1/1.66667  (6, 6)  not replacing
+H__5_24 odds = 1/10  (1, 1)  not replacing
+H__1_24 odds = 1/10  (1, 1)  not replacing
+H__2_24 odds = 1/10  (1, 1)  not replacing
+H__3_27 odds = 1/1.66667  (6, 6)  not replacing
+H__4_27 odds = 1/1.66667  (6, 6)  not replacing
+H__5_27 odds = 1/10  (1, 1)  not replacing
+H__1_27 odds = 1/10  (1, 1)  not replacing
+H__2_27 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_29 odds = 1/1.66667  (6, 6)  not replacing
+H__8_29 odds = 1/1.66667  (6, 6)  not replacing
+inlined 90 new size =8698
+H__7_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__7_29: replacing with value 0 bnd= 2 totsize= 2.48491
+H__6 odds = 1/0.119048 0.99955 (84, 84)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 3.17805
+H__8_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__8_29: replacing with value 0 bnd= 2 totsize= 3.8712
+inlined 72 new size =19948
+inlined 0 new size =17482
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 16630
+* Final Problem size: Problem nodes = 16630
+  # OF CONTROLS:    29
+ control_ints = 23 	 control_bits = 6
+inputSize = 12	ctrlSize = 88
+Random seeds = 1
+!+ 0001010010100101010000100000011000001101000001000000000101100101000000011100000000110010
+!+ H__3_17:0
+H__4_17:2
+H__3_18:2
+H__4_18:0
+H__4_21:1
+H__3_23:1
+H__4_23:2
+H__3_24:2
+H__4_24:2
+H__5_23:0
+H__1_23:8
+H__2_23:0
+H__5_17:1
+H__1_17:1
+H__2_17:22
+H__3_27:0
+H__4_27:0
+H__5_18:0
+H__1_18:1
+H__2_18:0
+H__5_24:1
+H__1_24:6
+H__2_24:5
+H__5_21:0
+H__1_21:16
+H__2_21:3
+H__5_27:0
+H__1_27:16
+H__2_27:9
+
+BEG CHECK
+ * After optims it became = 16495 was 16630
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.007 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.025
+!% 011110110000
+!% intSet_2_21_idx_0_0:2
+intSet_2_21_idx_1_0:3
+intSet_2_21_idx_2_0:1
+intSet_2_21_idx_3_0:3
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 8198 was 16630
+ * After all optims it became = 8194
+ finder  hits = 53553	 bstoreObjs=406535	 sstorePages=493
+hitcount 	0	383994	9
+hitcount 	1	12147	9
+hitcount 	2	544	2
+hitcount 	3	3230	9
+hitcount 	4	2800	10
+hitcount 	5	3639	10
+hitcount 	6	160	1
+hitcount 	13	21	5
+bucketsPerDepth 	13	1
+bucketsPerDepth 	14	20
+bucketsPerDepth 	15	95
+bucketsPerDepth 	16	189
+bucketsPerDepth 	17	243
+bucketsPerDepth 	18	212
+bucketsPerDepth 	19	132
+bucketsPerDepth 	20	73
+bucketsPerDepth 	21	34
+bucketsPerDepth 	22	14
+bucketsPerDepth 	23	6
+bucketsPerDepth 	24	5
+* TIME TO ADD INPUT :  0.653 ms 
+f# %assign: 40 clauses: 1375642 learn: 113 restart: 2 decision: 896 propagated: 6191046
+END FIND
+******** FAILED ********
+* FIND TIME:  2000.1 ms 
+* CHECK TIME:  0.025 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 2000.1 CHECK TIME 0.025 TOTAL TIME 2000.13
+RESULT = 1  
+**ROUND 1 : 3.8712 Round time:  2000.22 ms 
+RNDDEG = 10
+SUMMRY , 2, 583, 1724, 1722, 1726
+ charness = 0
+POST-SUMMRY , 2, 583, 1722, 1724, 1726
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 2
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.0666667 0.999999 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/0.833333  (6, 6)  not replacing
+H__4_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_17: replacing with value 0 bnd= 3 totsize= 1.79176
+H__5_17 odds = 1/5  (1, 1)  not replacing
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_18: replacing with value 2 bnd= 3 totsize= 2.89037
+H__4_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_18: replacing with value 0 bnd= 3 totsize= 3.98898
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5  (1, 1)  not replacing
+H__3_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_21: replacing with value 0 bnd= 3 totsize= 5.0876
+H__4_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_21: replacing with value 0 bnd= 3 totsize= 6.18621
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5  (1, 1)  not replacing
+H__3_23 odds = 1/0.833333  (6, 6)  not replacing
+H__4_23 odds = 1/0.833333  (6, 6)  not replacing
+H__5_23 odds = 1/5 0.099668 (1, 1)  try to replace
+H__5_23: replacing with value 1 bnd= 2 totsize= 6.87936
+H__1_23 odds = 1/5  (1, 1)  not replacing
+H__2_23 odds = 1/5  (1, 1)  not replacing
+H__3_24 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_24: replacing with value 0 bnd= 3 totsize= 7.97797
+H__4_24 odds = 1/0.833333  (6, 6)  not replacing
+H__5_24 odds = 1/5  (1, 1)  not replacing
+H__1_24 odds = 1/5  (1, 1)  not replacing
+H__2_24 odds = 1/5  (1, 1)  not replacing
+H__3_27 odds = 1/0.833333  (6, 6)  not replacing
+H__4_27 odds = 1/0.833333  (6, 6)  not replacing
+H__5_27 odds = 1/5 0.099668 (1, 1)  try to replace
+H__5_27: replacing with value 0 bnd= 2 totsize= 8.67112
+H__1_27 odds = 1/5  (1, 1)  not replacing
+H__2_27 odds = 1/5  (1, 1)  not replacing
+H__6 odds = 1/1.66667  (3, 3)  not replacing
+H__7_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__7_29: replacing with value 1 bnd= 2 totsize= 9.36426
+H__8_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 10.0574
+inlined 90 new size =8301
+H__6 odds = 1/0.178571 0.992632 (28, 28)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 10.7506
+inlined 72 new size =20348
+inlined 0 new size =17882
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17030
+* Final Problem size: Problem nodes = 17030
+  # OF CONTROLS:    22
+ control_ints = 18 	 control_bits = 4
+inputSize = 12	ctrlSize = 76
+Random seeds = 1
+!+ 0010101010000100001000000101001001100110111010101000100000011000010110010000
+!+ H__3_17:0
+H__3_23:1
+H__4_23:1
+H__4_24:1
+H__2_23:1
+H__1_23:1
+H__5_17:1
+H__1_17:0
+H__2_17:10
+H__3_27:2
+H__4_27:0
+H__5_18:1
+H__2_18:25
+H__5_24:0
+H__1_24:23
+H__2_24:10
+H__1_18:4
+H__5_21:0
+H__1_21:24
+H__2_21:16
+H__1_27:6
+H__2_27:1
+
+BEG CHECK
+ * After optims it became = 16936 was 17030
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.007 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.022
+!% 000000000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 837 was 17030
+ * After all optims it became = 833
+ finder  hits = 202	 bstoreObjs=4203	 sstorePages=17
+hitcount 	0	4011	1
+hitcount 	1	189	1
+hitcount 	4	2	1
+hitcount 	5	1	1
+bucketsPerDepth 	0	87
+bucketsPerDepth 	1	194
+bucketsPerDepth 	2	292
+bucketsPerDepth 	3	253
+bucketsPerDepth 	4	139
+bucketsPerDepth 	5	27
+bucketsPerDepth 	6	5
+bucketsPerDepth 	7	1
+* TIME TO ADD INPUT :  0.021 ms 
+f# %assign: 10 clauses: 57330 learn: 1 restart: 1 decision: 36 propagated: 735
+END FIND
+******** FAILED ********
+* FIND TIME:  0.023 ms 
+* CHECK TIME:  0.022 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.023 CHECK TIME 0.022 TOTAL TIME 0.045
+RESULT = 1  
+**ROUND 2 : 10.7506 Round time:  0.129 ms 
+RNDDEG = 5
+SUMMRY , 2, 23, 301, 309, 583, 595, 889, 1155, 1460, 1725, 1727, 1722
+ charness = 0
+POST-SUMMRY , 2, 23, 301, 309, 583, 595, 889, 1155, 1460, 1722, 1725, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 3
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.133333 0.998894 (75, 75)  try to replace
+H__0: replacing with value 1 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667  (6, 6)  not replacing
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667  (6, 6)  not replacing
+H__4_18 odds = 1/1.66667  (6, 6)  not replacing
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__1_18: replacing with value 26 bnd= 32 totsize= 4.15888
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667  (6, 6)  not replacing
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__3_23 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_23: replacing with value 0 bnd= 3 totsize= 5.2575
+H__4_23 odds = 1/1.66667  (6, 6)  not replacing
+H__5_23 odds = 1/10  (1, 1)  not replacing
+H__1_23 odds = 1/10  (1, 1)  not replacing
+H__2_23 odds = 1/10  (1, 1)  not replacing
+H__3_24 odds = 1/1.66667  (6, 6)  not replacing
+H__4_24 odds = 1/1.66667  (6, 6)  not replacing
+H__5_24 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__5_24: replacing with value 1 bnd= 2 totsize= 5.95064
+H__1_24 odds = 1/10  (1, 1)  not replacing
+H__2_24 odds = 1/10  (1, 1)  not replacing
+H__3_27 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_27: replacing with value 1 bnd= 3 totsize= 7.04925
+H__4_27 odds = 1/1.66667  (6, 6)  not replacing
+H__5_27 odds = 1/10  (1, 1)  not replacing
+H__1_27 odds = 1/10  (1, 1)  not replacing
+H__2_27 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_29 odds = 1/1.66667  (6, 6)  not replacing
+H__8_29 odds = 1/1.66667  (6, 6)  not replacing
+inlined 90 new size =8631
+H__7_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__7_29: replacing with value 1 bnd= 2 totsize= 7.7424
+H__6 odds = 1/0.119048 0.99955 (84, 84)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 8.43555
+H__8_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 9.1287
+inlined 72 new size =20208
+inlined 0 new size =17742
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 16890
+* Final Problem size: Problem nodes = 16890
+  # OF CONTROLS:    26
+ control_ints = 21 	 control_bits = 5
+inputSize = 12	ctrlSize = 80
+Random seeds = 1
+!+ 10000010100001010001101010010000111001000011001000000000000001001010000000100100
+!+ H__3_17:1
+H__4_17:0
+H__3_18:0
+H__4_18:1
+H__3_21:1
+H__4_21:0
+H__4_23:2
+H__3_24:2
+H__4_24:0
+H__4_27:2
+H__5_21:1
+H__1_21:10
+H__2_21:2
+H__5_27:0
+H__2_27:7
+H__5_17:1
+H__1_17:16
+H__2_17:9
+H__5_18:0
+H__2_18:0
+H__5_23:0
+H__1_23:0
+H__2_23:18
+H__1_24:2
+H__2_24:16
+H__1_27:4
+
+BEG CHECK
+ * After optims it became = 16796 was 16890
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.004 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.019
+!% 001000000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:1
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 49 was 16890
+ * After all optims it became = 49
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+digraph G{
+31= (0)
+32= ASSERT (0) : Assert at main_int0.sk:49 (5865302282264916733)
+}
+ slice size = 2
+
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+Problem became UNSAT.32= ASSERT (0) : Assert at main_int0.sk:49 (5865302282264916733)
+ finder  hits = 0	 bstoreObjs=700	 sstorePages=1
+hitcount 	0	700	0
+bucketsPerDepth 	0	380
+bucketsPerDepth 	1	119
+bucketsPerDepth 	2	25
+* TIME TO ADD INPUT :  0.01 ms 
+f# %assign: 1 clauses: 2100 learn: 0 restart: 0 decision: 0 propagated: 11
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.011 ms 
+* CHECK TIME:  0.019 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.011 CHECK TIME 0.019 TOTAL TIME 0.03
+RESULT = 1  
+**ROUND 3 : 9.1287 Round time:  0.117 ms 
+RNDDEG = 10
+SUMMRY , 3, 437, 869, 1175, 1443, 1725, 1722, 1727
+ charness = 0
+POST-SUMMRY , 3, 437, 869, 1175, 1443, 1722, 1725, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 4
+Before readInfile
+Single: 
+Double: 
+Nothing read
+After readInfile
+Single: 
+Double: 
+cur=5 next=10 scorecur=13 scorenext=9
+Switch because next is better
+Averages 9.22767, 13.1985
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.133333 0.998894 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667  (6, 6)  not replacing
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__1_17: replacing with value 25 bnd= 32 totsize= 4.15888
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667  (6, 6)  not replacing
+H__4_18 odds = 1/1.66667  (6, 6)  not replacing
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667  (6, 6)  not replacing
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__3_23 odds = 1/1.66667  (6, 6)  not replacing
+H__4_23 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_23: replacing with value 1 bnd= 3 totsize= 5.2575
+H__5_23 odds = 1/10  (1, 1)  not replacing
+H__1_23 odds = 1/10  (1, 1)  not replacing
+H__2_23 odds = 1/10  (1, 1)  not replacing
+H__3_24 odds = 1/1.66667  (6, 6)  not replacing
+H__4_24 odds = 1/1.66667  (6, 6)  not replacing
+H__5_24 odds = 1/10  (1, 1)  not replacing
+H__1_24 odds = 1/10  (1, 1)  not replacing
+H__2_24 odds = 1/10  (1, 1)  not replacing
+H__3_27 odds = 1/1.66667  (6, 6)  not replacing
+H__4_27 odds = 1/1.66667  (6, 6)  not replacing
+H__5_27 odds = 1/10  (1, 1)  not replacing
+H__1_27 odds = 1/10  (1, 1)  not replacing
+H__2_27 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333 0.148885 (3, 3)  try to replace
+H__6: replacing with value 1 bnd= 2 totsize= 5.95064
+H__7_29 odds = 1/1.66667  (6, 6)  not replacing
+H__8_29 odds = 1/1.66667  (6, 6)  not replacing
+inlined 90 new size =8688
+H__7_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__7_29: replacing with value 0 bnd= 2 totsize= 6.64379
+H__8_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 7.33694
+inlined 72 new size =20383
+inlined 0 new size =17917
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17065
+* Final Problem size: Problem nodes = 17065
+  # OF CONTROLS:    28
+ control_ints = 22 	 control_bits = 6
+inputSize = 12	ctrlSize = 83
+Random seeds = 1
+!+ 10000000011100000100100000000000100001011010010010110000000100000101100000000110010
+!+ H__3_17:1
+H__4_17:0
+H__3_18:0
+H__4_18:0
+H__3_21:2
+H__4_21:3
+H__3_23:0
+H__3_24:0
+H__4_24:2
+H__1_23:4
+H__5_17:0
+H__2_17:0
+H__3_27:0
+H__4_27:2
+H__5_23:0
+H__5_18:0
+H__1_18:20
+H__2_18:5
+H__5_24:1
+H__1_24:20
+H__2_24:1
+H__5_21:0
+H__1_21:4
+H__2_21:8
+H__2_23:3
+H__5_27:0
+H__1_27:16
+H__2_27:9
+
+BEG CHECK
+ * After optims it became = 16844 was 17065
+regen H__4
+Simulation found a cex by random testing:  0.004 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.019
+!% 100001100010
+!% intSet_2_21_idx_0_0:1
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:2
+intSet_2_21_idx_3_0:1
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:1
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 4597 was 17065
+ * After all optims it became = 4591
+ finder  hits = 11034	 bstoreObjs=122015	 sstorePages=143
+hitcount 	0	113326	6
+hitcount 	1	6807	6
+hitcount 	2	1660	7
+hitcount 	3	90	0
+hitcount 	4	89	1
+hitcount 	5	15	2
+hitcount 	7	23	0
+hitcount 	9	5	3
+bucketsPerDepth 	9	3
+bucketsPerDepth 	10	46
+bucketsPerDepth 	11	140
+bucketsPerDepth 	12	229
+bucketsPerDepth 	13	262
+bucketsPerDepth 	14	180
+bucketsPerDepth 	15	88
+bucketsPerDepth 	16	47
+bucketsPerDepth 	17	18
+bucketsPerDepth 	18	7
+bucketsPerDepth 	19	4
+* TIME TO ADD INPUT :  999.151 ms 
+f# %assign: 0 clauses: 462099 learn: 86 restart: 1 decision: 2066 propagated: 358157
+END FIND
+!+ 10001010000000000000010101010101000000100000110011101011010001000100001000000110001
+!+ H__3_17:1
+H__4_17:0
+H__3_18:1
+H__4_18:1
+H__3_21:0
+H__4_21:0
+H__3_23:0
+H__3_24:0
+H__4_24:0
+H__1_23:8
+H__5_17:1
+H__2_17:10
+H__3_27:1
+H__4_27:1
+H__5_23:0
+H__5_18:0
+H__1_18:8
+H__2_18:16
+H__5_24:1
+H__1_24:28
+H__2_24:26
+H__5_21:0
+H__1_21:17
+H__2_21:8
+H__2_23:8
+H__5_27:0
+H__1_27:16
+H__2_27:17
+
+BEG CHECK
+ * After optims it became = 16921 was 17065
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.006 ms 
+END CHECK
+********  1	ftime= 999.271	ctime= 0.026
+!% 001000100000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:1
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:1
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 870 was 17065
+ * After all optims it became = 866
+ finder  hits = 11754	 bstoreObjs=124018	 sstorePages=147
+hitcount 	0	114961	6
+hitcount 	1	6842	6
+hitcount 	2	1984	6
+hitcount 	3	90	0
+hitcount 	4	97	2
+hitcount 	5	16	2
+hitcount 	7	23	0
+hitcount 	9	5	3
+bucketsPerDepth 	9	2
+bucketsPerDepth 	10	41
+bucketsPerDepth 	11	134
+bucketsPerDepth 	12	228
+bucketsPerDepth 	13	263
+bucketsPerDepth 	14	182
+bucketsPerDepth 	15	92
+bucketsPerDepth 	16	52
+bucketsPerDepth 	17	19
+bucketsPerDepth 	18	7
+bucketsPerDepth 	19	3
+bucketsPerDepth 	20	1
+* TIME TO ADD INPUT :  0.035 ms 
+f# %assign: 4 clauses: 473985 learn: 96 restart: 2 decision: 2579 propagated: 539638
+END FIND
+!+ 10001010000001100000100011010000000001000110000011111101000001011010000100001100010
+!+ H__3_17:1
+H__4_17:0
+H__3_18:1
+H__4_18:1
+H__3_21:0
+H__4_21:0
+H__3_23:2
+H__3_24:1
+H__4_24:0
+H__1_23:4
+H__5_17:0
+H__2_17:11
+H__3_27:0
+H__4_27:0
+H__5_23:0
+H__5_18:0
+H__1_18:4
+H__2_18:6
+H__5_24:0
+H__1_24:28
+H__2_24:23
+H__5_21:0
+H__1_21:16
+H__2_21:22
+H__2_23:16
+H__5_27:0
+H__1_27:24
+H__2_27:8
+
+BEG CHECK
+ * After optims it became = 16860 was 17065
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.004 ms 
+END CHECK
+********  2	ftime= 0.085	ctime= 0.021
+!% 000001000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:2
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 856 was 17065
+ * After all optims it became = 852
+ finder  hits = 12165	 bstoreObjs=9133	 sstorePages=11
+hitcount 	1	6900	1
+hitcount 	2	1695	1
+hitcount 	3	388	1
+hitcount 	4	105	1
+hitcount 	5	17	1
+hitcount 	7	23	1
+hitcount 	9	5	1
+bucketsPerDepth 	1	23
+bucketsPerDepth 	2	333
+bucketsPerDepth 	3	641
+bucketsPerDepth 	4	27
+* TIME TO ADD INPUT :  0.021 ms 
+f# %assign: 95 clauses: 484681 learn: 97 restart: 3 decision: 2635 propagated: 768337
+END FIND
+******** FAILED ********
+* FIND TIME:  0.072 ms 999.428 ms
+* CHECK TIME:  0.021 ms 0.066 ms
+ *FAILED IN 3 iterations.
+ *FIND TIME 999.428 CHECK TIME 0.066 TOTAL TIME 999.495
+RESULT = 1  
+**ROUND 4 : 7.33694 Round time:  999.583 ms 
+RNDDEG = 10
+SUMMRY , 2, 149, 883, 1723, 1724, 1727
+ charness = 0
+POST-SUMMRY , 2, 149, 883, 1723, 1724, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 5
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.0666667 0.999999 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_17: replacing with value 2 bnd= 3 totsize= 1.79176
+H__4_17 odds = 1/0.833333  (6, 6)  not replacing
+H__5_17 odds = 1/5  (1, 1)  not replacing
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_18: replacing with value 1 bnd= 3 totsize= 2.89037
+H__4_18 odds = 1/0.833333  (6, 6)  not replacing
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5  (1, 1)  not replacing
+H__3_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_21: replacing with value 1 bnd= 3 totsize= 3.98898
+H__4_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_21: replacing with value 2 bnd= 3 totsize= 5.0876
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5  (1, 1)  not replacing
+H__3_23 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_23: replacing with value 1 bnd= 3 totsize= 6.18621
+H__4_23 odds = 1/0.833333  (6, 6)  not replacing
+H__5_23 odds = 1/5  (1, 1)  not replacing
+H__1_23 odds = 1/5  (1, 1)  not replacing
+H__2_23 odds = 1/5  (1, 1)  not replacing
+H__3_24 odds = 1/0.833333  (6, 6)  not replacing
+H__4_24 odds = 1/0.833333  (6, 6)  not replacing
+H__5_24 odds = 1/5  (1, 1)  not replacing
+H__1_24 odds = 1/5  (1, 1)  not replacing
+H__2_24 odds = 1/5  (1, 1)  not replacing
+H__3_27 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_27: replacing with value 2 bnd= 3 totsize= 7.28482
+H__4_27 odds = 1/0.833333  (6, 6)  not replacing
+H__5_27 odds = 1/5  (1, 1)  not replacing
+H__1_27 odds = 1/5  (1, 1)  not replacing
+H__2_27 odds = 1/5  (1, 1)  not replacing
+H__6 odds = 1/1.66667  (3, 3)  not replacing
+H__7_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__7_29: replacing with value 1 bnd= 2 totsize= 7.97797
+H__8_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__8_29: replacing with value 0 bnd= 2 totsize= 8.67112
+inlined 90 new size =8310
+H__6 odds = 1/0.0892857 0.999973 (56, 56)  try to replace
+H__6: replacing with value 1 bnd= 2 totsize= 9.36426
+inlined 72 new size =20357
+inlined 0 new size =17891
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17039
+* Final Problem size: Problem nodes = 17039
+  # OF CONTROLS:    24
+ control_ints = 18 	 control_bits = 6
+inputSize = 12	ctrlSize = 78
+Random seeds = 1
+!+ 100000001010001010000000001110010100001011010000011100000000000000010000000010
+!+ H__4_17:1
+H__4_18:0
+H__4_23:0
+H__3_24:0
+H__4_24:1
+H__5_23:1
+H__2_23:8
+H__5_17:1
+H__2_17:0
+H__4_27:0
+H__5_18:0
+H__2_18:14
+H__5_24:0
+H__1_24:5
+H__2_24:20
+H__1_17:5
+H__1_18:24
+H__5_21:1
+H__1_21:0
+H__2_21:0
+H__1_23:0
+H__5_27:1
+H__1_27:0
+H__2_27:8
+
+BEG CHECK
+ * After optims it became = 16934 was 17039
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.005 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.019
+!% 000000100000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:1
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 850 was 17039
+ * After all optims it became = 846
+ finder  hits = 109	 bstoreObjs=3118	 sstorePages=5
+hitcount 	0	3038	1
+hitcount 	1	70	1
+hitcount 	2	1	0
+hitcount 	4	8	1
+hitcount 	5	1	2
+bucketsPerDepth 	0	131
+bucketsPerDepth 	1	310
+bucketsPerDepth 	2	320
+bucketsPerDepth 	3	149
+bucketsPerDepth 	4	44
+bucketsPerDepth 	5	15
+bucketsPerDepth 	6	2
+bucketsPerDepth 	7	1
+* TIME TO ADD INPUT :  0.015 ms 
+f# %assign: 65 clauses: 6276 learn: 84 restart: 1 decision: 975 propagated: 6503
+END FIND
+!+ 001001100000001000100100000010000101110100000000011000011000110001100001100011
+!+ H__4_17:0
+H__4_18:1
+H__4_23:2
+H__3_24:1
+H__4_24:0
+H__5_23:0
+H__2_23:8
+H__5_17:0
+H__2_17:18
+H__4_27:0
+H__5_18:0
+H__2_18:8
+H__5_24:0
+H__1_24:20
+H__2_24:11
+H__1_17:0
+H__1_18:24
+H__5_21:0
+H__1_21:24
+H__2_21:24
+H__1_23:24
+H__5_27:0
+H__1_27:24
+H__2_27:24
+
+BEG CHECK
+ * After optims it became = 16917 was 17039
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.01 ms 
+END CHECK
+********  1	ftime= 0.018	ctime= 0.027
+!% 000000000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 839 was 17039
+ * After all optims it became = 835
+ finder  hits = 482	 bstoreObjs=4159	 sstorePages=7
+hitcount 	0	3734	1
+hitcount 	1	406	1
+hitcount 	2	1	0
+hitcount 	4	16	1
+hitcount 	5	2	2
+bucketsPerDepth 	0	62
+bucketsPerDepth 	1	200
+bucketsPerDepth 	2	348
+bucketsPerDepth 	3	246
+bucketsPerDepth 	4	97
+bucketsPerDepth 	5	40
+bucketsPerDepth 	6	8
+bucketsPerDepth 	7	3
+* TIME TO ADD INPUT :  0.014 ms 
+f# %assign: 51 clauses: 13161 learn: 84 restart: 2 decision: 981 propagated: 6694
+END FIND
+******** FAILED ********
+* FIND TIME:  0.014 ms 0.032 ms
+* CHECK TIME:  0.027 ms 0.046 ms
+ *FAILED IN 2 iterations.
+ *FIND TIME 0.032 CHECK TIME 0.046 TOTAL TIME 0.078
+RESULT = 1  
+**ROUND 5 : 9.36426 Round time:  0.163 ms 
+RNDDEG = 5
+SUMMRY , 2, 15, 299, 585, 599, 871, 1445, 1725, 1726, 1723
+ charness = 0
+POST-SUMMRY , 2, 15, 299, 585, 599, 871, 1445, 1723, 1725, 1726
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 6
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.133333 0.998894 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_17: replacing with value 0 bnd= 3 totsize= 1.79176
+H__4_17 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_17: replacing with value 0 bnd= 3 totsize= 2.89037
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_18: replacing with value 2 bnd= 3 totsize= 3.98898
+H__4_18 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_18: replacing with value 0 bnd= 3 totsize= 5.0876
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_21: replacing with value 2 bnd= 3 totsize= 6.18621
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__3_23 odds = 1/1.66667  (6, 6)  not replacing
+H__4_23 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_23: replacing with value 2 bnd= 3 totsize= 7.28482
+H__5_23 odds = 1/10  (1, 1)  not replacing
+H__1_23 odds = 1/10  (1, 1)  not replacing
+H__2_23 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__2_23: replacing with value 26 bnd= 32 totsize= 10.7506
+H__3_24 odds = 1/1.66667  (6, 6)  not replacing
+H__4_24 odds = 1/1.66667  (6, 6)  not replacing
+H__5_24 odds = 1/10  (1, 1)  not replacing
+H__1_24 odds = 1/10  (1, 1)  not replacing
+H__2_24 odds = 1/10  (1, 1)  not replacing
+H__3_27 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_27: replacing with value 0 bnd= 3 totsize= 11.8492
+H__4_27 odds = 1/1.66667  (6, 6)  not replacing
+H__5_27 odds = 1/10  (1, 1)  not replacing
+H__1_27 odds = 1/10  (1, 1)  not replacing
+H__2_27 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_29 odds = 1/1.66667  (6, 6)  not replacing
+H__8_29 odds = 1/1.66667  (6, 6)  not replacing
+inlined 90 new size =8579
+H__7_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__7_29: replacing with value 1 bnd= 2 totsize= 12.5423
+H__6 odds = 1/0.119048 0.99955 (84, 84)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 13.2355
+H__8_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 13.9286
+inlined 72 new size =20339
+inlined 0 new size =17873
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17021
+* Final Problem size: Problem nodes = 17021
+  # OF CONTROLS:    22
+ control_ints = 16 	 control_bits = 6
+inputSize = 12	ctrlSize = 71
+Random seeds = 1
+!+ 00010110100000000001001010000000100000101000100000000000011000000011010
+!+ H__4_21:0
+H__3_23:2
+H__3_24:2
+H__4_24:1
+H__5_23:1
+H__1_23:0
+H__5_17:0
+H__1_17:16
+H__2_17:20
+H__4_27:0
+H__5_18:0
+H__2_18:16
+H__5_24:0
+H__1_24:16
+H__2_24:2
+H__1_18:1
+H__5_21:0
+H__1_21:0
+H__2_21:12
+H__5_27:0
+H__1_27:0
+H__2_27:11
+
+BEG CHECK
+ * After optims it became = 16936 was 17021
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.006 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.021
+!% 000000100000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:0
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:1
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 842 was 17021
+ * After all optims it became = 838
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+Problem became UNSAT.830= ASSERT 829 : Assert at main_int0.sk:49 (5865302282264916733)
+ finder  hits = 224	 bstoreObjs=3922	 sstorePages=16
+hitcount 	0	3708	1
+hitcount 	1	211	1
+hitcount 	4	2	1
+hitcount 	5	1	1
+bucketsPerDepth 	0	96
+bucketsPerDepth 	1	221
+bucketsPerDepth 	2	319
+bucketsPerDepth 	3	235
+bucketsPerDepth 	4	91
+bucketsPerDepth 	5	25
+bucketsPerDepth 	6	4
+bucketsPerDepth 	7	1
+* TIME TO ADD INPUT :  0.02 ms 
+f# %assign: 0 clauses: 50338 learn: 0 restart: 0 decision: 0 propagated: 17
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.02 ms 
+* CHECK TIME:  0.021 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.02 CHECK TIME 0.021 TOTAL TIME 0.041
+RESULT = 1  
+**ROUND 6 : 13.9286 Round time:  0.129 ms 
+RNDDEG = 10
+SUMMRY , 2, 11, 23, 301, 309, 587, 885, 1139, 1441, 1725, 1722, 1727
+ charness = 0
+POST-SUMMRY , 2, 11, 23, 301, 309, 587, 885, 1139, 1441, 1722, 1725, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 7
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.0666667 0.999999 (75, 75)  try to replace
+H__0: replacing with value 1 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_17: replacing with value 1 bnd= 3 totsize= 1.79176
+H__4_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_17: replacing with value 1 bnd= 3 totsize= 2.89037
+H__5_17 odds = 1/5  (1, 1)  not replacing
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_18: replacing with value 1 bnd= 3 totsize= 3.98898
+H__4_18 odds = 1/0.833333  (6, 6)  not replacing
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5  (1, 1)  not replacing
+H__3_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_21: replacing with value 2 bnd= 3 totsize= 5.0876
+H__4_21 odds = 1/0.833333  (6, 6)  not replacing
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5  (1, 1)  not replacing
+H__3_23 odds = 1/0.833333  (6, 6)  not replacing
+H__4_23 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_23: replacing with value 2 bnd= 3 totsize= 6.18621
+H__5_23 odds = 1/5  (1, 1)  not replacing
+H__1_23 odds = 1/5  (1, 1)  not replacing
+H__2_23 odds = 1/5 0.099668 (1, 1)  try to replace
+H__2_23: replacing with value 16 bnd= 32 totsize= 9.65194
+H__3_24 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_24: replacing with value 2 bnd= 3 totsize= 10.7506
+H__4_24 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_24: replacing with value 0 bnd= 3 totsize= 11.8492
+H__5_24 odds = 1/5  (1, 1)  not replacing
+H__1_24 odds = 1/5  (1, 1)  not replacing
+H__2_24 odds = 1/5  (1, 1)  not replacing
+H__3_27 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_27: replacing with value 2 bnd= 3 totsize= 12.9478
+H__4_27 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_27: replacing with value 0 bnd= 3 totsize= 14.0464
+H__5_27 odds = 1/5  (1, 1)  not replacing
+H__1_27 odds = 1/5  (1, 1)  not replacing
+H__2_27 odds = 1/5  (1, 1)  not replacing
+H__6 odds = 1/1.66667 0.291313 (3, 3)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 14.7395
+H__7_29 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__7_29: replacing with value 0 bnd= 2 totsize= 15.4327
+H__8_29 odds = 1/0.833333  (6, 6)  not replacing
+inlined 90 new size =8345
+H__8_29 odds = 1/0.0337838 1 (148, 148)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 16.1258
+inlined 72 new size =20149
+inlined 0 new size =17683
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 16831
+* Final Problem size: Problem nodes = 16831
+  # OF CONTROLS:    20
+ control_ints = 14 	 control_bits = 6
+inputSize = 12	ctrlSize = 67
+Random seeds = 1
+!+ 0000001001000000001000100000001110001000000111000000000000011011101
+!+ H__4_18:0
+H__4_21:0
+H__3_23:0
+H__5_21:1
+H__2_21:4
+H__5_27:0
+H__2_27:0
+H__5_17:1
+H__1_17:8
+H__2_17:0
+H__5_18:0
+H__1_18:7
+H__2_18:2
+H__1_21:24
+H__5_23:1
+H__1_23:0
+H__5_24:0
+H__1_24:0
+H__2_24:12
+H__1_27:23
+
+BEG CHECK
+ * After optims it became = 16772 was 16831
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.005 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.02
+!% 000100100000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:2
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:1
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 29 was 16831
+ * After all optims it became = 29
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+digraph G{
+10= (0)
+11= ASSERT (0) : Assert at main_int0.sk:49 (5865302282264916733)
+}
+ slice size = 2
+
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+Problem became UNSAT.11= ASSERT (0) : Assert at main_int0.sk:49 (5865302282264916733)
+ finder  hits = 0	 bstoreObjs=672	 sstorePages=1
+hitcount 	0	672	0
+bucketsPerDepth 	0	379
+bucketsPerDepth 	1	103
+bucketsPerDepth 	2	20
+bucketsPerDepth 	3	5
+* TIME TO ADD INPUT :  0.01 ms 
+f# %assign: 0 clauses: 2016 learn: 0 restart: 0 decision: 0 propagated: 4
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.01 ms 
+* CHECK TIME:  0.02 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.01 CHECK TIME 0.02 TOTAL TIME 0.031
+RESULT = 1  
+**ROUND 7 : 16.1258 Round time:  0.12 ms 
+RNDDEG = 5
+SUMMRY , 3, 13, 25, 299, 587, 885, 1119, 1159, 1167, 1445, 1453, 1722, 1724, 1727
+ charness = 0
+POST-SUMMRY , 3, 13, 25, 299, 587, 885, 1119, 1159, 1167, 1445, 1453, 1722, 1724, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 8
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.133333 0.998894 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667  (6, 6)  not replacing
+H__5_17 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__5_17: replacing with value 0 bnd= 2 totsize= 1.38629
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_18: replacing with value 0 bnd= 3 totsize= 2.48491
+H__4_18 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_18: replacing with value 2 bnd= 3 totsize= 3.58352
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__3_21: replacing with value 1 bnd= 3 totsize= 4.68213
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__3_23 odds = 1/1.66667  (6, 6)  not replacing
+H__4_23 odds = 1/1.66667  (6, 6)  not replacing
+H__5_23 odds = 1/10  (1, 1)  not replacing
+H__1_23 odds = 1/10  (1, 1)  not replacing
+H__2_23 odds = 1/10  (1, 1)  not replacing
+H__3_24 odds = 1/1.66667  (6, 6)  not replacing
+H__4_24 odds = 1/1.66667  (6, 6)  not replacing
+H__5_24 odds = 1/10  (1, 1)  not replacing
+H__1_24 odds = 1/10  (1, 1)  not replacing
+H__2_24 odds = 1/10  (1, 1)  not replacing
+H__3_27 odds = 1/1.66667  (6, 6)  not replacing
+H__4_27 odds = 1/1.66667  (6, 6)  not replacing
+H__5_27 odds = 1/10  (1, 1)  not replacing
+H__1_27 odds = 1/10  (1, 1)  not replacing
+H__2_27 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_29 odds = 1/1.66667  (6, 6)  not replacing
+H__8_29 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__8_29: replacing with value 1 bnd= 2 totsize= 5.37528
+inlined 90 new size =8496
+H__7_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__7_29: replacing with value 1 bnd= 2 totsize= 6.06843
+H__6 odds = 1/0.178571 0.992632 (56, 56)  try to replace
+H__6: replacing with value 1 bnd= 2 totsize= 6.76157
+inlined 72 new size =20361
+inlined 0 new size =17895
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17043
+* Final Problem size: Problem nodes = 17043
+  # OF CONTROLS:    26
+ control_ints = 21 	 control_bits = 5
+inputSize = 12	ctrlSize = 83
+Random seeds = 1
+!+ 10000000010001001001010010001010000100100001000000010000001001110011010000100000000
+!+ H__3_17:1
+H__4_17:0
+H__4_21:0
+H__3_23:0
+H__4_23:2
+H__3_24:0
+H__4_24:2
+H__5_23:0
+H__1_23:18
+H__2_23:18
+H__1_17:8
+H__3_27:1
+H__4_27:0
+H__5_18:0
+H__1_18:9
+H__5_24:0
+H__1_24:4
+H__2_24:0
+H__2_17:1
+H__2_18:4
+H__5_21:1
+H__1_21:19
+H__2_21:5
+H__5_27:0
+H__1_27:2
+H__2_27:0
+
+BEG CHECK
+ * After optims it became = 16839 was 17043
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.006 ms 
+END CHECK
+********  0	ftime= 0	ctime= 999.02
+!% 001001100000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:1
+intSet_2_21_idx_2_0:2
+intSet_2_21_idx_3_0:1
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 858 was 17043
+ * After all optims it became = 854
+ finder  hits = 181	 bstoreObjs=4385	 sstorePages=17
+hitcount 	0	4214	1
+hitcount 	1	168	1
+hitcount 	4	2	3
+hitcount 	5	1	1
+bucketsPerDepth 	0	71
+bucketsPerDepth 	1	196
+bucketsPerDepth 	2	300
+bucketsPerDepth 	3	291
+bucketsPerDepth 	4	115
+bucketsPerDepth 	5	33
+bucketsPerDepth 	6	5
+bucketsPerDepth 	7	1
+* TIME TO ADD INPUT :  0.021 ms 
+f# %assign: 10 clauses: 55051 learn: 0 restart: 1 decision: 11 propagated: 426
+END FIND
+******** FAILED ********
+* FIND TIME:  0.022 ms 
+* CHECK TIME:  999.02 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.022 CHECK TIME 999.02 TOTAL TIME 999.043
+RESULT = 1  
+**ROUND 8 : 6.76157 Round time:  999.131 ms 
+RNDDEG = 10
+SUMMRY , 2, 30, 297, 313, 585, 1727, 1725, 1723
+ charness = 0
+POST-SUMMRY , 2, 30, 297, 313, 585, 1723, 1725, 1727
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 9
+Before readInfile
+Single: 
+Double: 
+Nothing read
+After readInfile
+Single: 
+Double: 
+cur=10 next=640 scorecur=11 scorenext=0
+Switch because next is better
+Averages 0, 11.6497
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/0.133333 0.998894 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667  (6, 6)  not replacing
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667  (6, 6)  not replacing
+H__4_18 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_18: replacing with value 0 bnd= 3 totsize= 1.79176
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667  (6, 6)  not replacing
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__3_23 odds = 1/1.66667  (6, 6)  not replacing
+H__4_23 odds = 1/1.66667  (6, 6)  not replacing
+H__5_23 odds = 1/10  (1, 1)  not replacing
+H__1_23 odds = 1/10  (1, 1)  not replacing
+H__2_23 odds = 1/10  (1, 1)  not replacing
+H__3_24 odds = 1/1.66667  (6, 6)  not replacing
+H__4_24 odds = 1/1.66667  (6, 6)  not replacing
+H__5_24 odds = 1/10  (1, 1)  not replacing
+H__1_24 odds = 1/10  (1, 1)  not replacing
+H__2_24 odds = 1/10  (1, 1)  not replacing
+H__3_27 odds = 1/1.66667  (6, 6)  not replacing
+H__4_27 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_27: replacing with value 0 bnd= 3 totsize= 2.89037
+H__5_27 odds = 1/10  (1, 1)  not replacing
+H__1_27 odds = 1/10  (1, 1)  not replacing
+H__2_27 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_29 odds = 1/1.66667  (6, 6)  not replacing
+H__8_29 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__8_29: replacing with value 0 bnd= 2 totsize= 3.58352
+inlined 90 new size =8529
+H__7_29 odds = 1/0.0675676 0.999999 (148, 148)  try to replace
+H__7_29: replacing with value 0 bnd= 2 totsize= 4.27667
+H__6 odds = 1/0.119048 0.99955 (84, 84)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 4.96981
+inlined 72 new size =19939
+inlined 0 new size =17473
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 16621
+* Final Problem size: Problem nodes = 16621
+  # OF CONTROLS:    28
+ control_ints = 22 	 control_bits = 6
+inputSize = 12	ctrlSize = 86
+Random seeds = 1
+!+ 00110000000000100000110010000001000100000111010000000000100001010110000110100001100000
+!+ H__3_17:0
+H__4_17:3
+H__3_18:0
+H__3_21:0
+H__4_21:0
+H__3_23:0
+H__4_23:0
+H__3_24:1
+H__4_24:0
+H__5_23:0
+H__1_23:6
+H__2_23:1
+H__5_17:0
+H__1_17:2
+H__2_17:1
+H__3_27:2
+H__5_18:1
+H__1_18:5
+H__2_18:0
+H__5_24:0
+H__1_24:4
+H__2_24:20
+H__5_21:0
+H__1_21:3
+H__2_21:22
+H__5_27:0
+H__1_27:24
+H__2_27:0
+
+BEG CHECK
+ * After optims it became = 16478 was 16621
+regen H__4
+Simulation found a cex by random testing:  0.004 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.02
+!% 001000010110
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:1
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:2
+intSet_2_21_idx_4_0:2
+intSet_2_21_idx_5_0:1
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 49 was 16621
+ * After all optims it became = 49
+ finder  hits = 0	 bstoreObjs=760	 sstorePages=1
+hitcount 	0	760	0
+bucketsPerDepth 	0	423
+bucketsPerDepth 	1	140
+bucketsPerDepth 	2	16
+bucketsPerDepth 	4	1
+* TIME TO ADD INPUT :  0.011 ms 
+f# %assign: 1 clauses: 2260 learn: 70 restart: 1 decision: 894 propagated: 3026
+END FIND
+!+ 10001000000100100000101110100000001100010000101001100000011000110000110001100001100010
+!+ H__3_17:1
+H__4_17:0
+H__3_18:1
+H__3_21:0
+H__4_21:0
+H__3_23:2
+H__4_23:0
+H__3_24:1
+H__4_24:0
+H__5_23:0
+H__1_23:26
+H__2_23:5
+H__5_17:0
+H__1_17:16
+H__2_17:17
+H__3_27:0
+H__5_18:0
+H__1_18:10
+H__2_18:6
+H__5_24:0
+H__1_24:24
+H__2_24:24
+H__5_21:0
+H__1_21:24
+H__2_21:24
+H__5_27:0
+H__1_27:24
+H__2_27:8
+
+BEG CHECK
+ * After optims it became = 16416 was 16621
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.005 ms 
+END CHECK
+********  1	ftime= 0.011	ctime= 0.02
+!% 000100000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:2
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 738 was 16621
+ * After all optims it became = 738
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+Problem became UNSAT.731= ASSERT 730 : Assert at main_int0.sk:49 (5865302282264916733)
+ finder  hits = 24	 bstoreObjs=2360	 sstorePages=6
+hitcount 	0	2346	0
+hitcount 	1	11	1
+hitcount 	4	2	2
+hitcount 	5	1	1
+bucketsPerDepth 	0	232
+bucketsPerDepth 	1	352
+bucketsPerDepth 	2	225
+bucketsPerDepth 	3	92
+bucketsPerDepth 	4	17
+bucketsPerDepth 	5	2
+* TIME TO ADD INPUT :  0.015 ms 
+f# %assign: 0 clauses: 19395 learn: 70 restart: 1 decision: 894 propagated: 3032
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:49 (5865302282264916733)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.015 ms 0.026 ms
+* CHECK TIME:  0.02 ms 0.04 ms
+ *FAILED IN 2 iterations.
+ *FIND TIME 0.026 CHECK TIME 0.04 TOTAL TIME 0.068
+RESULT = 1  
+**ROUND 9 : 4.96981 Round time:  0.158 ms 
+RNDDEG = 10
+SUMMRY , 2, 309, 1453, 1726, 1724, 1722
+ charness = 0
+POST-SUMMRY , 2, 309, 1453, 1722, 1724, 1726
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 10
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 6	 main__Wrapper_ANONYMOUS::SKETCH nodes = 10
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 6 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =129
+inlined 5 new size =300
+H__0 odds = 1/8.53333 0.0585268 (75, 75)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =3075
+H__3_17 odds = 1/106.667  (6, 6)  not replacing
+H__4_17 odds = 1/106.667  (6, 6)  not replacing
+H__5_17 odds = 1/640  (1, 1)  not replacing
+H__1_17 odds = 1/640  (1, 1)  not replacing
+H__2_17 odds = 1/640  (1, 1)  not replacing
+H__3_18 odds = 1/106.667  (6, 6)  not replacing
+H__4_18 odds = 1/106.667  (6, 6)  not replacing
+H__5_18 odds = 1/640  (1, 1)  not replacing
+H__1_18 odds = 1/640  (1, 1)  not replacing
+H__2_18 odds = 1/640  (1, 1)  not replacing
+H__3_21 odds = 1/106.667  (6, 6)  not replacing
+H__4_21 odds = 1/106.667  (6, 6)  not replacing
+H__5_21 odds = 1/640  (1, 1)  not replacing
+H__1_21 odds = 1/640  (1, 1)  not replacing
+H__2_21 odds = 1/640  (1, 1)  not replacing
+H__3_23 odds = 1/106.667  (6, 6)  not replacing
+H__4_23 odds = 1/106.667  (6, 6)  not replacing
+H__5_23 odds = 1/640  (1, 1)  not replacing
+H__1_23 odds = 1/640  (1, 1)  not replacing
+H__2_23 odds = 1/640  (1, 1)  not replacing
+H__3_24 odds = 1/106.667  (6, 6)  not replacing
+H__4_24 odds = 1/106.667  (6, 6)  not replacing
+H__5_24 odds = 1/640  (1, 1)  not replacing
+H__1_24 odds = 1/640  (1, 1)  not replacing
+H__2_24 odds = 1/640  (1, 1)  not replacing
+H__3_27 odds = 1/106.667  (6, 6)  not replacing
+H__4_27 odds = 1/106.667  (6, 6)  not replacing
+H__5_27 odds = 1/640  (1, 1)  not replacing
+H__1_27 odds = 1/640  (1, 1)  not replacing
+H__2_27 odds = 1/640  (1, 1)  not replacing
+H__6 odds = 1/213.333  (3, 3)  not replacing
+H__7_29 odds = 1/106.667  (6, 6)  not replacing
+H__8_29 odds = 1/106.667  (6, 6)  not replacing
+inlined 90 new size =8712
+H__7_29 odds = 1/4.32432  (148, 148)  not replacing
+H__6 odds = 1/7.61905  (84, 84)  not replacing
+H__8_29 odds = 1/4.32432  (148, 148)  not replacing
+inlined 72 new size =20694
+inlined 0 new size =18228
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =6
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 17376
+* Final Problem size: Problem nodes = 17376
+  # OF CONTROLS:    33
+ control_ints = 24 	 control_bits = 9
+inputSize = 12	ctrlSize = 93
+Random seeds = 1
+!+ 100111100000100011000100010111010110010000100001000000000000010010000101000010000111000010000
+!+ H__3_17:1
+H__4_17:2
+H__3_18:3
+H__4_18:1
+H__3_21:0
+H__4_21:0
+H__3_23:1
+H__4_23:0
+H__3_24:3
+H__4_24:0
+H__5_23:0
+H__1_23:17
+H__2_23:14
+H__5_17:1
+H__1_17:6
+H__2_17:1
+H__3_27:1
+H__4_27:0
+H__5_18:0
+H__1_18:1
+H__2_18:0
+H__5_24:0
+H__1_24:8
+H__2_24:2
+H__7_29:0
+H__6:1
+H__8_29:0
+H__5_21:1
+H__1_21:16
+H__2_21:16
+H__5_27:1
+H__1_27:1
+H__2_27:1
+
+BEG CHECK
+ * After optims it became = 16639 was 17376
+regen H__3
+Simulation found a cex by random testing:  0.004 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.021
+!% 000111010000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:2
+intSet_2_21_idx_2_0:3
+intSet_2_21_idx_3_0:2
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 949 was 17376
+ * After all optims it became = 945
+ finder  hits = 123	 bstoreObjs=7144	 sstorePages=25
+hitcount 	0	7031	2
+hitcount 	1	110	1
+hitcount 	4	2	2
+hitcount 	5	1	2
+bucketsPerDepth 	0	7
+bucketsPerDepth 	1	35
+bucketsPerDepth 	2	164
+bucketsPerDepth 	3	310
+bucketsPerDepth 	4	285
+bucketsPerDepth 	5	158
+bucketsPerDepth 	6	50
+bucketsPerDepth 	7	11
+bucketsPerDepth 	8	3
+* TIME TO ADD INPUT :  0.026 ms 
+f# %assign: 0 clauses: 81799 learn: 48 restart: 1 decision: 572 propagated: 14009
+END FIND
+!+ 000010000000100000000000011101001000001010000000111111010010000010100110000100001000001000010
+!+ H__3_17:0
+H__4_17:0
+H__3_18:1
+H__4_18:0
+H__3_21:0
+H__4_21:0
+H__3_23:1
+H__4_23:0
+H__3_24:0
+H__4_24:0
+H__5_23:0
+H__1_23:16
+H__2_23:11
+H__5_17:0
+H__1_17:1
+H__2_17:10
+H__3_27:0
+H__4_27:0
+H__5_18:0
+H__1_18:30
+H__2_18:11
+H__5_24:0
+H__1_24:1
+H__2_24:10
+H__7_29:0
+H__6:1
+H__8_29:1
+H__5_21:0
+H__1_21:8
+H__2_21:8
+H__5_27:0
+H__1_27:8
+H__2_27:8
+
+BEG CHECK
+ * After optims it became = 16928 was 17376
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.008 ms 
+END CHECK
+********  1	ftime= 0.032	ctime= 0.024
+!% 000100000000
+!% intSet_2_21_idx_0_0:0
+intSet_2_21_idx_1_0:2
+intSet_2_21_idx_2_0:0
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:0
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 940 was 17376
+ * After all optims it became = 936
+ finder  hits = 749	 bstoreObjs=13017	 sstorePages=47
+hitcount 	0	12288	2
+hitcount 	1	723	1
+hitcount 	4	4	2
+hitcount 	5	2	2
+bucketsPerDepth 	1	2
+bucketsPerDepth 	2	10
+bucketsPerDepth 	3	63
+bucketsPerDepth 	4	219
+bucketsPerDepth 	5	281
+bucketsPerDepth 	6	265
+bucketsPerDepth 	7	134
+bucketsPerDepth 	8	38
+bucketsPerDepth 	9	10
+bucketsPerDepth 	10	2
+* TIME TO ADD INPUT :  0.027 ms 
+f# %assign: 0 clauses: 154076 learn: 91 restart: 2 decision: 1176 propagated: 70884
+END FIND
+!+ 000110000001100001010100001100101000000001000011100110000001000000010010000110001100001100011
+!+ H__3_17:0
+H__4_17:2
+H__3_18:1
+H__4_18:0
+H__3_21:0
+H__4_21:2
+H__3_23:1
+H__4_23:0
+H__3_24:2
+H__4_24:2
+H__5_23:0
+H__1_23:1
+H__2_23:19
+H__5_17:0
+H__1_17:1
+H__2_17:16
+H__3_27:0
+H__4_27:0
+H__5_18:1
+H__1_18:19
+H__2_18:1
+H__5_24:0
+H__1_24:2
+H__2_24:16
+H__7_29:0
+H__6:0
+H__8_29:1
+H__5_21:0
+H__1_21:24
+H__2_21:24
+H__5_27:0
+H__1_27:24
+H__2_27:24
+
+BEG CHECK
+ * After optims it became = 16901 was 17376
+ TESTING HYPOTHESIS ITER 1
+dagmain__WrapperNospec_ANONYMOUS{
+0= (3)
+intSet_2_21_idx_0_0
+2= (3) < intSet_2_21_idx_0_0 
+3= 2 ! 
+4= ASSERT (!2) : 
+}
+SLICE SIZE = 5
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 3795= (3) < intSet_2_21_idx_0_0  = 0
+ reduced size from 16901 to 16897
+ TESTING HYPOTHESIS ITER 2
+dagmain__WrapperNospec_ANONYMOUS{
+0= (4)
+1= (0)
+intSet_2_21_idx_0_0
+3= (0) < intSet_2_21_idx_0_0 
+4= (-1)
+5= [3]$(-1), (0), $
+6= 5 == (-1) 
+7= 6 & 3 
+8= (1)
+9= [7]$5, (1), $
+10= 9 == (-1) 
+11= (3)
+12= (-1){(3)->9}
+13= [10]$(0), 12, $
+14= (2)
+15= 12{(2)->9}
+16= [3]$13, 15, $
+17= 16[(4)]
+18= 17 == (-1) 
+19= ASSERT 18 : 
+}
+SLICE SIZE = 20
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 145= 144 == (-1)  = 1
+ reduced size from 16897 to 16801
+Assert at main_int0.sk:49 (5865302282264916733)
+Simulation found a cex by random testing:  0.051 ms 
+END CHECK
+********  2	ftime= 0.044	ctime= 0.066
+!% 100111001000
+!% intSet_2_21_idx_0_0:1
+intSet_2_21_idx_1_0:2
+intSet_2_21_idx_2_0:3
+intSet_2_21_idx_3_0:0
+intSet_2_21_idx_4_0:1
+intSet_2_21_idx_5_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 4743 was 17376
+ * After all optims it became = 4737
+ finder  hits = 14724	 bstoreObjs=10621	 sstorePages=18
+hitcount 	1	7775	1
+hitcount 	2	2093	2
+hitcount 	3	555	2
+hitcount 	4	102	2
+hitcount 	5	12	2
+hitcount 	7	63	2
+hitcount 	9	21	2
+bucketsPerDepth 	1	9
+bucketsPerDepth 	2	188
+bucketsPerDepth 	3	763
+bucketsPerDepth 	4	64
+* TIME TO ADD INPUT :  0.204 ms 
+f# %assign: 0 clauses: 830758 learn: 142 restart: 3 decision: 1648 propagated: 1397575
+END FIND
+!+ 000101000010000000000100000011000000001000000000101000110100000100001000000110001100001100011
+!+ H__3_17:0
+H__4_17:2
+H__3_18:2
+H__4_18:0
+H__3_21:0
+H__4_21:1
+H__3_23:0
+H__4_23:0
+H__3_24:0
+H__4_24:0
+H__5_23:0
+H__1_23:1
+H__2_23:12
+H__5_17:0
+H__1_17:0
+H__2_17:2
+H__3_27:0
+H__4_27:0
+H__5_18:0
+H__1_18:10
+H__2_18:12
+H__5_24:1
+H__1_24:0
+H__2_24:1
+H__7_29:1
+H__6:0
+H__8_29:0
+H__5_21:0
+H__1_21:24
+H__2_21:24
+H__5_27:0
+H__1_27:24
+H__2_27:24
+
+BEG CHECK
+ * After optims it became = 16811 was 17376
+ TESTING HYPOTHESIS ITER 1
+dagmain__WrapperNospec_ANONYMOUS{
+0= (3)
+intSet_2_21_idx_0_0
+2= (3) < intSet_2_21_idx_0_0 
+3= 2 ! 
+4= ASSERT (!2) : 
+}
+SLICE SIZE = 5
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 3704= (3) < intSet_2_21_idx_0_0  = 0
+ reduced size from 16811 to 16807
+ TESTING HYPOTHESIS ITER 2
+dagmain__WrapperNospec_ANONYMOUS{
+0= (4)
+1= (0)
+intSet_2_21_idx_0_0
+3= (0) < intSet_2_21_idx_0_0 
+4= (-1)
+5= [3]$(-1), (0), $
+6= 5 == (-1) 
+7= 6 & 3 
+8= (1)
+9= [7]$5, (1), $
+10= 9 == (-1) 
+11= (3)
+12= (-1){(3)->9}
+13= [10]$(0), 12, $
+14= (2)
+15= 12{(2)->9}
+16= [3]$13, 15, $
+17= 16[(4)]
+18= 17 == (-1) 
+19= ASSERT 18 : 
+}
+SLICE SIZE = 20
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 90= 89 == (-1)  = 1
+ reduced size from 16807 to 16695
+ TESTING HYPOTHESIS ITER 3
+dagmain__WrapperNospec_ANONYMOUS{
+0= (5)
+1= (0)
+intSet_2_21_idx_0_0
+3= (0) < intSet_2_21_idx_0_0 
+4= (-1)
+5= [3]$(-1), (0), $
+6= 5 == (-1) 
+7= 6 & 3 
+8= (1)
+9= [7]$5, (1), $
+10= 9 == (-1) 
+11= (3)
+12= (-1){(3)->9}
+13= [10]$(0), 12, $
+14= (2)
+15= 12{(2)->9}
+16= [3]$13, 15, $
+17= 16[(5)]
+18= 17 == (-1) 
+19= ASSERT 18 : 
+}
+SLICE SIZE = 20
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 1388= 1387 == (-1)  = 1
+ reduced size from 16695 to 16599
+ TESTING HYPOTHESIS ITER 4
+dagmain__WrapperNospec_ANONYMOUS{
+0= (0)
+intSet_2_21_idx_0_0
+2= (0) < intSet_2_21_idx_0_0 
+3= (-1)
+4= [2]$(-1), (0), $
+5= 4 == (-1) 
+6= 5 & 2 
+7= (1)
+8= [6]$4, (1), $
+9= 8 == (-1) 
+10= 2 | 9 
+11= ASSERT 10 : 
+}
+SLICE SIZE = 12
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 91= 3 | 90  = 1
+ reduced size from 16599 to 16573
+ * Simulation optimized it to = 16573
+Simulation didn't find a cex:  0.118 ms 
+After all optim
+c# %assign: 99 clauses: 16699787 learn: 137 restart: 2 decision: 497 propagated: 26672665
+END CHECK
+********  3	ftime= 999.583	ctime= 28000.8
+ *GOT THE CORRECT ANSWER IN 4 iterations.
+ *FIND TIME 999.659 CHECK TIME 28000.9 TOTAL TIME 29000.5
+RESULT = 0  
+**ROUND 10 : 0.693147 Round time:  29000.6 ms 
+RNDDEG = 640
+return 0
+
+----- Statistics -----
+Total elapsed time (ms):  33000.9
+Model building time (ms): 0.028
+Solution time (ms):       33000.8
+Max virtual mem (bytes):  2035601408
+Max resident mem (bytes): 1854201856
+Max private mem (bytes):  2030821376
+ALL CORRECT
+
+[SATBackend] Stats for last run:
+      [solution stats]
+      successful? ---------------------> true
+      elapsed time (s) ----------------> 33.996
+      model building time (s) ---------> 0.0
+      solution time (s) ---------------> 33.0
+      max memory usage (MiB) ----------> 1941.3008
+      [SAT-specific solution stats]
+      initial number of nodes ---------> 10
+      number of nodes after opts ------> 17008
+      number of controls --------------> 19
+      total number of control bits ----> 62
+
+[SATBackend] === parallel trial w/ degree -1 (10) solved ===
+[SATBackend] === resolved within 1 complete parallel trial(s)
+[SATBackend] destroying java.lang.UNIXProcess@12f41634
+[SATBackend] destroying java.lang.UNIXProcess@13c27452
+[SATBackend] destroying java.lang.UNIXProcess@262b2c86
+[SATBackend] destroying java.lang.UNIXProcess@371a67ec
+[SATBackend] destroying java.lang.UNIXProcess@5ed828d
+[SATBackend] destroying java.lang.UNIXProcess@50d0686
+[SATBackend] destroying java.lang.UNIXProcess@7a3d45bd
+[SATBackend] destroying java.lang.UNIXProcess@1e7c7811
+[SATBackend] destroying java.lang.UNIXProcess@77ec78b9
+[SATBackend] destroying java.lang.UNIXProcess@1a3869f4
+[SATBackend] destroying java.lang.UNIXProcess@a38d7a3
+[SATBackend] destroying java.lang.UNIXProcess@77f99a05
+[SATBackend] destroying java.lang.UNIXProcess@63440df3
+[SATBackend] destroying java.lang.UNIXProcess@3aeaafa6
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (5) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (14) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (6) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (9) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (2) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (11) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (7) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (13) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (12) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (0) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (4) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (8) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (1) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (3) done, but aborted ===
+/* BEGIN PACKAGE ANONYMOUS*/
+struct Average {
+}
+/*main_int0.sk:20*/
+
+void _main (int[6] intSet, ref global bit loop0__ANONYMOUS_s67)/*main_int0.sk:20*/
+{
+  int[3] data = {0,0,0};
+  data[0] = intSet[3];
+  data[1] = intSet[2];
+  data[2] = intSet[1];
+  loop0__ANONYMOUS_s67 = 0;
+  int i;
+  i = intSet[0];
+  bit _out_s12 = 0;
+  loopInvariant(data, 0, 0, 0, 0, 0, 0, _out_s12);
+  assert (_out_s12); //Assert at main_int0.sk:41 (-7963041102253991850)
+  bit _pac_sc_s13_s15 = 0;
+  loopInvariant(data, intSet[5], 0, intSet[4], 0, i, 0, _pac_sc_s13_s15);
+  bit _pac_sc_s13;
+  _pac_sc_s13 = _pac_sc_s13_s15;
+  if(_pac_sc_s13_s15)/*main_int0.sk:42*/
+  {
+    _pac_sc_s13 = i < 3;
+  }
+  if(_pac_sc_s13)/*main_int0.sk:42*/
+  {
+    int ind_sum = (intSet[5]) + (data[i]);
+    bit _out_s17 = 0;
+    loopInvariant(data, ind_sum, 0, (intSet[4]) + 1, 0, i + 1, 0, _out_s17);
+    assert (_out_s17); //Assert at main_int0.sk:49 (5865302282264916733)
+  }
+  bit _pac_sc_s18_s20 = 0;
+  loopInvariant(data, intSet[5], 0, intSet[4], 0, i, 0, _pac_sc_s18_s20);
+  bit _pac_sc_s18;
+  _pac_sc_s18 = _pac_sc_s18_s20;
+  if(_pac_sc_s18_s20)/*main_int0.sk:51*/
+  {
+    _pac_sc_s18 = !(i < 3);
+  }
+  if(_pac_sc_s18)/*main_int0.sk:51*/
+  {
+    bit _out_s22 = 0;
+    postCondition(data, intSet[5], 0, intSet[4], 0, i, 0, _out_s22);
+    assert (_out_s22); //Assert at main_int0.sk:52 (-1472334393511045023)
+  }
+}
+/*main_int0.sk:232*/
+
+void collect (List resMR, int sum0, int count0, ref Output _out)/*main_int0.sk:232*/
+{
+  _out = null;
+  _out = new Output@Output();
+  int _out_s54 = 0;
+  int_get@KvPairList(resMR, 0, sum0, _out_s54);
+  _out.sum = _out_s54;
+  int _out_s56 = 0;
+  int_get@KvPairList(resMR, 1, count0, _out_s56);
+  _out.count = _out_s56;
+  return;
+}
+/*main_int0.sk:94*/
+
+void do_map (int[3] data, int i, ref List _out)/*main_int0.sk:94*/
+{
+  _out = null;
+  _out = new List@KvPairList();
+  Pair@KvPairList kvp = new Pair@KvPairList();
+  kvp.intkey = 0;
+  int _terminal1 = data[i];
+  kvp.value = _terminal1;
+  intlist_put@KvPairList(_out, kvp);
+  Pair@KvPairList kvp_0 = new Pair@KvPairList();
+  kvp_0.intkey = 1;
+  kvp_0.value = 1;
+  intlist_put@KvPairList(_out, kvp_0);
+  return;
+}
+/*main_int0.sk:133*/
+
+void do_reduce (ListNode values_0, ref Pair _out)/*main_int0.sk:133*/
+{
+  _out = null;
+  ListNode@KvPairList values = values_0;
+  _out = new Pair@KvPairList();
+  if(values_0 == (null))/*main_int0.sk:136*/
+  {
+    return;
+  }
+  _out.intkey = values_0.intkey;
+  _out.intkey2 = values_0.intkey2;
+  _out.value = 0;
+  while(values != (null))
+  {
+    int val1 = _out.value;
+    int val2 = values.value;
+    _out.value = val1 + val2;
+    values = values.next;
+  }
+  return;
+}
+/*main_int0.sk:12*/
+
+void glblInit_mapKeyType__ANONYMOUS_s70 (ref int mapKeyType__ANONYMOUS_s69)/*main_int0.sk:12*/
+{
+  mapKeyType__ANONYMOUS_s69 = 0;
+}
+/*main_int0.sk:64*/
+
+void loopInvariant (int[3] data, int sum, int sum0, int count, int count0, int i, int i0, ref bit _out)/*main_int0.sk:64*/
+{
+  _out = 0;
+  List@KvPairList resMR_s62 = null;
+  map(data, i0, i, resMR_s62);
+  List@KvPairList resMR_s64 = null;
+  reduce(resMR_s62, resMR_s64);
+  Output@Output resMR_s66 = null;
+  collect(resMR_s64, sum0, count0, resMR_s66);
+  _out = ((((resMR_s66.sum) == sum) && ((resMR_s66.count) == count)) && (0 <= i)) && (i <= 3);
+  return;
+}
+/*main_int0.sk:20*/
+
+void main__Wrapper (int[6] intSet)  implements main__WrapperNospec/*main_int0.sk:20*/
+{
+  global bit loop0__ANONYMOUS_s68 = 0;
+  _main(intSet, loop0__ANONYMOUS_s68);
+}
+/*main_int0.sk:20*/
+
+void main__WrapperNospec (int[6] intSet)/*main_int0.sk:20*/
+{ }
+/*main_int0.sk:159*/
+
+void map (int[3] data, int i0, int i, ref List _out)/*main_int0.sk:159*/
+{
+  _out = null;
+  _out = new List@KvPairList(handle=null);
+  int _i = i0;
+  while((_i < i) && (_i < 3))
+  {
+    List@KvPairList kvPairs_s30 = null;
+    do_map(data, _i, kvPairs_s30);
+    intlist_merge@KvPairList(_out, kvPairs_s30);
+    _i = _i + 1;
+  }
+  return;
+}
+/*main_int0.sk:59*/
+
+void postCondition (int[3] data, int sum, int sum0, int count, int count0, int i, int i0, ref bit _out)/*main_int0.sk:59*/
+{
+  _out = 0;
+  List@KvPairList resMR_s24 = null;
+  map(data, i0, i, resMR_s24);
+  List@KvPairList resMR_s26 = null;
+  reduce(resMR_s24, resMR_s26);
+  Output@Output resMR_s28 = null;
+  collect(resMR_s26, sum0, count0, resMR_s28);
+  _out = ((resMR_s28.sum) == sum) && ((resMR_s28.count) == count);
+  return;
+}
+/*main_int0.sk:183*/
+
+void reduce (List kvPairs, ref List _out)/*main_int0.sk:183*/
+{
+  _out = null;
+  _out = new List@KvPairList(handle=null);
+  if((kvPairs.handle) == (null))/*main_int0.sk:187*/
+  {
+    return;
+  }
+  ListNode@KvPairList ptr_st = kvPairs.handle;
+  ListNode@KvPairList ptr_end = kvPairs.handle;
+  bit __sa0 = (ptr_end.next) != (null);
+  while(__sa0)
+  {
+    if(((1 && ((ptr_end.next.intkey) == (ptr_st.intkey))) && ((ptr_end.next.intkey2) == (ptr_st.intkey2))) || 0)/*main_int0.sk:195*/
+    {
+      ptr_end = ptr_end.next;
+    }
+    else
+    {
+      ListNode@KvPairList ptr_temp = ptr_end.next;
+      ptr_end.next = null;
+      Pair@KvPairList kv_s48 = null;
+      do_reduce(ptr_st, kv_s48);
+      intlist_insert@KvPairList(_out, kv_s48);
+      ptr_st = ptr_temp;
+      ptr_end = ptr_temp;
+    }
+    __sa0 = (ptr_end.next) != (null);
+  }
+  Pair@KvPairList kv_s50 = null;
+  do_reduce(ptr_st, kv_s50);
+  intlist_insert@KvPairList(_out, kv_s50);
+  return;
+}
+/* END PACKAGE ANONYMOUS*/
+/* BEGIN PACKAGE KvPairList*/
+package KvPairList{
+  struct Pair {
+      int intkey;
+      int intkey2;
+      int stringkey;
+      int value;
+  }
+  struct ListNode {
+      int intkey;
+      int intkey2;
+      int stringkey;
+      int value;
+      ListNode next;
+  }
+  struct List {
+      ListNode handle;
+      int length;
+  }
+  /*kvpair_..t_int0.sk:219*/
+  
+void int_get (List l, int key, int initial, ref int _out)/*kvpair_..t_int0.sk:219*/
+  {
+    _out = 0;
+    ListNode@KvPairList ptr = l.handle;
+    while(ptr != (null))
+    {
+      if((ptr.intkey) == key)/*kvpair_..t_int0.sk:222*/
+      {
+        int option0 = (ptr.value) + initial;
+        _out = option0;
+        return;
+      }
+      ptr = ptr.next;
+    }
+    _out = initial;
+    return;
+  }
+  /*kvpair_..t_int0.sk:69*/
+  
+void intlist_insert (List l, Pair kvPair)/*kvpair_..t_int0.sk:69*/
+  {
+    ListNode@KvPairList ptr = l.handle;
+    l.handle = new ListNode();
+    l.handle.intkey = kvPair.intkey;
+    l.handle.intkey2 = kvPair.intkey2;
+    l.handle.value = kvPair.value;
+    l.handle.next = ptr;
+    if(ptr == (null))/*kvpair_..t_int0.sk:78*/
+    {
+      l.length = 1;
+    }
+    else
+    {
+      l.length = (l.length) + 1;
+    }
+  }
+  /*kvpair_..t_int0.sk:27*/
+  
+void intlist_merge (List result, List kvPairs)/*kvpair_..t_int0.sk:27*/
+  {
+    if((result.handle) == (null))/*kvpair_..t_int0.sk:29*/
+    {
+      result.handle = kvPairs.handle;
+      result.length = kvPairs.length;
+      return;
+    }
+    ListNode@KvPairList ptr = kvPairs.handle;
+    while(ptr != (null))
+    {
+      Pair@KvPairList kvPair = new Pair();
+      kvPair.intkey = ptr.intkey;
+      kvPair.intkey2 = ptr.intkey2;
+      kvPair.value = ptr.value;
+      intlist_put(result, kvPair);
+      ptr = ptr.next;
+    }
+  }
+  /*kvpair_..t_int0.sk:99*/
+  
+void intlist_put (List l, Pair kvPair)/*kvpair_..t_int0.sk:99*/
+  {
+    if((l.handle) == (null))/*kvpair_..t_int0.sk:101*/
+    {
+      l.handle = new ListNode();
+      l.handle.intkey = kvPair.intkey;
+      l.handle.intkey2 = kvPair.intkey2;
+      l.handle.value = kvPair.value;
+      l.handle.next = null;
+      l.length = 1;
+      return;
+    }
+    ListNode@KvPairList ptr = l.handle;
+    bit __sa1 = (ptr.next) != (null);
+    while(__sa1)
+    {
+      if(((ptr.intkey) == (kvPair.intkey)) && ((ptr.intkey2) == (kvPair.intkey2)))/*kvpair_..t_int0.sk:118*/
+      {
+        ListNode@KvPairList temp = ptr.next;
+        ptr.next = new ListNode();
+        ptr.next.intkey = kvPair.intkey;
+        ptr.next.intkey2 = kvPair.intkey2;
+        ptr.next.value = kvPair.value;
+        ptr.next.next = temp;
+        l.length = (l.length) + 1;
+        return;
+      }
+      else
+      {
+        ptr = ptr.next;
+      }
+      __sa1 = (ptr.next) != (null);
+    }
+    ptr.next = new ListNode();
+    ptr.next.intkey = kvPair.intkey;
+    ptr.next.intkey2 = kvPair.intkey2;
+    ptr.next.value = kvPair.value;
+    ptr.next.next = null;
+    l.length = (l.length) + 1;
+    return;
+  }
+  /* END PACKAGE KvPairList*/
+}
+/* BEGIN PACKAGE Output*/
+package Output{
+  struct Output {
+      int sum;
+      int count;
+  }
+  /* END PACKAGE Output*/
+}
+[SKETCH] DONE
+Total time = 34914

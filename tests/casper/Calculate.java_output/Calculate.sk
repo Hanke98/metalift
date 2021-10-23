@@ -1,0 +1,4 @@
+struct Calculate{
+	double num;
+	double num1;
+	}

@@ -1,0 +1,12 @@
+Dafny program verifier version 1.9.7.30401, Copyright (c) 2003-2016, Microsoft.
+output/main_int0.dfy(99,9): Error: assertion violation
+output/main_int0.dfy(67,5): Related location
+Execution trace:
+    (0,0): anon0
+    (0,0): anon13_Then
+    (0,0): anon2
+    (0,0): anon14_Then
+    (0,0): anon15_Else
+    (0,0): anon6
+
+Dafny program verifier finished with 11 verified, 1 error
