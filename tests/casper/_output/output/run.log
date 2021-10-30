@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.IllegalArgumentException: directories not supported
+	at com.sun.tools.javac.file.RegularFileObject.<init>(RegularFileObject.java:70)
+	at com.sun.tools.javac.file.RegularFileObject.<init>(RegularFileObject.java:64)
+	at com.sun.tools.javac.file.JavacFileManager.getJavaFileObjectsFromFiles(JavacFileManager.java:785)
+	at com.sun.tools.javac.file.JavacFileManager.getJavaFileObjects(JavacFileManager.java:790)
+	at polyglot.filemanager.ExtFileManager.fileSource(ExtFileManager.java:485)
+	at polyglot.filemanager.ExtFileManager.fileSource(ExtFileManager.java:456)
+	at polyglot.frontend.Compiler.compileFiles(Compiler.java:129)
+	at polyglot.main.Main.start(Main.java:175)
+	at polyglot.main.Main.start(Main.java:131)
+	at casper.Main.main(Main.java:14)

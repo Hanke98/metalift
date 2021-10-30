@@ -1,0 +1,36 @@
+package original.big;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.function.Function2;
+import org.apache.spark.api.java.function.PairFlatMapFunction;
+import scala.Tuple2;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+
+public class DatabaseSelect {
+	class Record {
+		public List<String> columns;
+		
+		public Record() { super(); }
+	}
+	
+	
+	public List<Record> select(List<Record> table, String key) {
+		List<Record> result = null;
+		result = new ArrayList<Record>();
+		for (Record record : table) {
+			List<String> flat$0 = record.columns;
+			String flat$1 = flat$0.get(0);
+			boolean flat$2 = flat$1.equals(key);
+			if (flat$2) { result.add(record); }
+		}
+		return result;
+	}
+	
+	public DatabaseSelect() { super(); }
+}

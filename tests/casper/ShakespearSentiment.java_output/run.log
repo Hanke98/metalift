@@ -1,0 +1,10 @@
+/Casper/bin/input/ShakespearSentiment.java:1: Illegal character "?"
+package original.big??;
+                    ^
+
+/Casper/bin/input/ShakespearSentiment.java:1: Illegal character "?"
+package original.big??;
+                     ^
+
+2 errors.
+null

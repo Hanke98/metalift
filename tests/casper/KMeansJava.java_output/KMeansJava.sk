@@ -1,0 +1,3 @@
+struct KMeansJava{
+	int GRID_SIZE;
+	}

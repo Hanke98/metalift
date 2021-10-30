@@ -1,0 +1,27 @@
+/Casper/bin/input/AverageData.java:46: Could not find type, field, or local 
+    variable "IOUtil".
+    	String choice= IOUtil.getFileName();
+    	               ^----^
+
+/Casper/bin/input/AverageData.java:50: Could not find type, field, or local 
+    variable "IOUtil".
+        	int length = IOUtil.skipToInt(scan);
+        	             ^----^
+
+/Casper/bin/input/AverageData.java:51: Could not find type, field, or local 
+    variable "PlotReader".
+        	double[] data = PlotReader.data1Column(scan,length);
+        	                ^--------^
+
+/Casper/bin/input/AverageData.java:52: Could not find type, field, or local 
+    variable "StatsUtil".
+        	double mean = StatsUtil.mean(data);
+        	              ^-------^
+
+/Casper/bin/input/AverageData.java:54: Could not find type, field, or local 
+    variable "StatsUtil".
+        	System.out.printf("std Dev value %g \n", Math.sqrt(StatsUtil.variance(data,mean))); 
+        	                                                   ^-------^
+
+5 errors.
+null

@@ -1,0 +1,5 @@
+struct Result{
+	Double[][] means;
+	int[4] clusters;
+	bit modified;
+	}

@@ -1,0 +1,20 @@
+package original.stats;
+
+class MomentInertia {
+	
+	public static double centerUniformRod(double length, double mass) {
+		double flat$0 = mass * length;
+		double flat$1 = flat$0 * length;
+		double flat$2 = flat$1 / 12;
+		return flat$2;
+	}
+	
+	public static double sphere(double length, double mass) {
+		double flat$3 = mass * length;
+		double flat$4 = flat$3 * length;
+		double flat$5 = flat$4 / 12;
+		return flat$5;
+	}
+	
+	public MomentInertia() { super(); }
+}

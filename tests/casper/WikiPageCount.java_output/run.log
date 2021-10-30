@@ -1,0 +1,10 @@
+/Casper/bin/input/WikiPageCount.java:1: Illegal character "?"
+package original.big??;
+                    ^
+
+/Casper/bin/input/WikiPageCount.java:1: Illegal character "?"
+package original.big??;
+                     ^
+
+2 errors.
+null

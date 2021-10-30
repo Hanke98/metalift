@@ -1,0 +1,106 @@
+package original.stats;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.function.Function2;
+import org.apache.spark.api.java.function.PairFlatMapFunction;
+import scala.Tuple2;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Scanner;
+import java.io.*;
+
+public class IOUtil {
+	
+	public static double skipToDouble(Scanner scanner) {
+		while (true) {
+			boolean flat$2 = scanner.hasNext();
+			boolean flat$3 = false;
+			if (flat$2) {
+				boolean flat$4 = scanner.hasNextDouble();
+				flat$3 = !flat$4;
+			} else {
+				flat$3 = false;
+			}
+			boolean loop$0 = false;
+			loop$0 = flat$3;
+			if (loop$0) { scanner.next(); } else { break; }
+		}
+		boolean flat$5 = scanner.hasNextDouble();
+		double flat$6 = 0;
+		if (flat$5) { flat$6 = scanner.nextDouble(); } else { flat$6 = Double.NaN; }
+		return flat$6;
+	}
+	
+	public static FileReader file(String fileName) throws FileNotFoundException {
+		FileReader flat$7 = new FileReader(fileName);
+		return flat$7;
+	}
+	
+	public static String typedInput() throws IOException {
+		InputStream flat$8 = System.in;
+		InputStreamReader flat$9 = new InputStreamReader(flat$8);
+		BufferedReader keyIn = null;
+		keyIn = new BufferedReader(flat$9);
+		String flat$10 = keyIn.readLine();
+		return flat$10;
+	}
+	
+	public static int skipToInt(Scanner scanner) {
+		while (true) {
+			boolean flat$11 = scanner.hasNext();
+			boolean flat$12 = false;
+			if (flat$11) {
+				boolean flat$13 = scanner.hasNextInt();
+				flat$12 = !flat$13;
+			} else {
+				flat$12 = false;
+			}
+			boolean loop$1 = false;
+			loop$1 = flat$12;
+			if (loop$1) { scanner.next(); } else { break; }
+		}
+		boolean flat$14 = scanner.hasNextInt();
+		int flat$15 = 0;
+		if (flat$14) { flat$15 = scanner.nextInt(); } else { flat$15 = (int) Double.NaN; }
+		return flat$15;
+	}
+	
+	public static void abuse() {
+		PrintStream flat$16 = System.out;
+		flat$16.println("Invalid entry.");
+		PrintStream flat$17 = System.out;
+		flat$17.println("Abusive statement.");
+		System.exit(0);
+	}
+	
+	public static String fileName() throws IOException {
+		PrintStream flat$18 = System.out;
+		flat$18.printf("Type file name or hit \'!\' \n");
+		String typed = null;
+		typed = typedInput();
+		PrintStream flat$19 = System.out;
+		flat$19.printf("Found %s \n", typed);
+		return typed;
+	}
+	
+	public static String getFileName() throws IOException {
+		PrintStream flat$20 = System.out;
+		flat$20.printf("Type file name or hit \'!\' \n");
+		String typed = null;
+		typed = typedInput();
+		PrintStream flat$21 = System.out;
+		flat$21.printf("Found %s \n", typed);
+		return typed;
+	}
+	
+	public static String enterValue(String kindOf) {
+		String flat$22 = "Enter " + kindOf;
+		String flat$23 = flat$22 + "value:";
+		return flat$23;
+	}
+	
+	public IOUtil() { super(); }
+}

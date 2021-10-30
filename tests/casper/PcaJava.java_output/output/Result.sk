@@ -1,0 +1,4 @@
+struct Result{
+	Integer[][] cov;
+	int[4] mean;
+	}

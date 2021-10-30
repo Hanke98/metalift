@@ -1,0 +1,40 @@
+/Casper/bin/input/FormatData.java:32: Could not find type, field, or local 
+    variable "IOUtil".
+	String fileName = IOUtil.getFileName();
+	                  ^----^
+
+/Casper/bin/input/FormatData.java:37: Could not find type, field, or local 
+    variable "IOUtil".
+	int length = IOUtil.skipToInt(scan);
+	             ^----^
+
+/Casper/bin/input/FormatData.java:39: Could not find type, field, or local 
+    variable "IOUtil".
+	double xError=IOUtil.skipToDouble(scan);
+	              ^----^
+
+/Casper/bin/input/FormatData.java:40: Could not find type, field, or local 
+    variable "IOUtil".
+	double yError= IOUtil.skipToDouble(scan);
+	               ^----^
+
+/Casper/bin/input/FormatData.java:41: Could not find type, field, or local 
+    variable "PlotReader".
+	double[][] data = PlotReader.data2Column(scan,length);
+	                  ^--------^
+
+/Casper/bin/input/FormatData.java:42: Could not find type "PlotUtil".
+	PlotUtil p = new PlotUtil(data);
+	^------^
+
+/Casper/bin/input/FormatData.java:42: Could not find type "PlotUtil".
+	PlotUtil p = new PlotUtil(data);
+	                 ^------^
+
+/Casper/bin/input/FormatData.java:44: Could not find type, field, or local 
+    variable "PlotWriter".
+	PlotWriter.errors(p.x(), p.y(),xError,Calculate.multiply(p.y(),yError), fitFout);
+	^--------^
+
+8 errors.
+null
