@@ -1,0 +1,2030 @@
+SKETCH version 1.7.2
+Benchmark = output/main_int0.sk
+[SATBackend] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[SATBackend] MAX LOOP UNROLLING = 3
+[SATBackend] MAX FUNC INLINING  = 5
+estimated size of main__Wrapper_ANONYMOUS
+stmt cnt: 4
+callee main_ANONYMOUS : 63
+
+[SATBackend] After prog.accept(partialEval)
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+[SATBackend] OFILE = null
+searching for file null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file null
+searching for file null
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file null
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file null
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file cegis/src/SketchSolver/cegis
+searching for file null
+searching for file /root/.sketch/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/cegis
+searching for file /root/.sketch/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file cegis/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file cegis/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file cegis/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file ../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file ../sketch-backend/bindings/cegis
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis-1.7.2
+searching for file /root/.sketch/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /sbin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /root/.sketch/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/sbin/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/local/bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/cegis
+searching for file /sbin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 11 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-10 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/local/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 14 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-13 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 1 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-0 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sbin/cegis
+searching for file /usr/local/sbin/../sketch-backend/bindings/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/cegis
+searching for file /bin/cegis
+searching for file /usr/local/bin/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 10 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-9 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/local/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /usr/local/bin/../sketch-backend/bindings/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/sbin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /usr/sbin/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 7 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-6 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 6 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-5 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /usr/sbin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 5 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-4 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /usr/bin/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /usr/bin/src/SketchSolver/cegis
+searching for file /sbin/cegis
+searching for file /usr/bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /usr/bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /bin/cegis
+searching for file /sbin/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sbin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sbin/../sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 12 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-11 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 4 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-3 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /bin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+searching for file /sbin/../sketch-backend/bindings/cegis
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /bin/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/src/SketchSolver/cegis
+searching for file /bin/../sketch-backend/bindings/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 2 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-1 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 9 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-8 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+searching for file /sketch-1.7.2/sketch-frontend/src/SketchSolver/cegis
+searching for file /sketch-1.7.2/sketch-frontend/../sketch-backend/src/SketchSolver/cegis
+resolved cegis to path /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 15 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-14 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 3 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-2 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 8 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-7 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Launching: /sketch-1.7.2/sketch-backend/src/SketchSolver/cegis --bnd-inbits 2 --boundmode CALLNAME --verbosity 10 --print-version -simiters 4 --assumebcheck --bnd-inline-amnt 5 --bndwrand 10 -angelictupledepth 1 -srctupledepth 2 -sprandbias 1 --seed 13 -randassign -o /root/.sketch/tmp/main_int0.sk/solution0-12 /root/.sketch/tmp/main_int0.sk/input0.tmp 
+[SATBackend] Solver exit value: 0
+[SATBackend] === parallel trial w/ degree -1 (9) start ===
+Overriding inputs with 2
+boundmode = CALLNAME
+assuming  bounds checks
+BND W RAND = 10
+SOLVER RAND SEED = 10
+ optimization level = 6
+Reading SKETCH Program in File /root/.sketch/tmp/main_int0.sk/input0.tmp
+CREATING main__Wrapper_ANONYMOUS
+size = 9
+after ba size = 9
+CREATING main__WrapperNospec_ANONYMOUS
+size = 5
+after ba size = 5
+CREATING main_ANONYMOUS
+size = 185
+after ba size = 185
+CREATING loopInvariant_ANONYMOUS
+size = 77
+after ba size = 77
+CREATING postCondition_ANONYMOUS
+size = 69
+after ba size = 69
+CREATING map_ANONYMOUS
+size = 324
+after ba size = 324
+CREATING reduce_ANONYMOUS
+size = 497
+after ba size = 497
+CREATING collect_ANONYMOUS
+size = 39
+after ba size = 39
+CREATING do_map_ANONYMOUS
+size = 198
+after ba size = 198
+CREATING intlist_merge_KvPairList
+size = 188
+after ba size = 188
+CREATING stringlist_merge_KvPairList
+size = 188
+after ba size = 188
+CREATING do_reduce_ANONYMOUS
+size = 105
+after ba size = 105
+CREATING intlist_insert_KvPairList
+size = 85
+after ba size = 85
+CREATING stringlist_insert_KvPairList
+size = 85
+after ba size = 85
+CREATING int_get_KvPairList
+size = 91
+after ba size = 91
+CREATING string_get_KvPairList
+size = 91
+after ba size = 91
+CREATING intlist_put_KvPairList
+size = 310
+after ba size = 310
+CREATING stringlist_put_KvPairList
+size = 310
+after ba size = 310
+End of File
+ATTEMPT 0
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 5	 main__Wrapper_ANONYMOUS::SKETCH nodes = 9
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 5 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =122
+inlined 5 new size =260
+H__0 odds = 1/0.135135 0.998778 (37, 37)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =1961
+H__3_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_17: replacing with value 2 bnd= 3 totsize= 1.79176
+H__4_17 odds = 1/0.833333  (6, 6)  not replacing
+H__5_17 odds = 1/5  (1, 1)  not replacing
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_18: replacing with value 2 bnd= 3 totsize= 2.89037
+H__4_18 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_18: replacing with value 2 bnd= 3 totsize= 3.98898
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5  (1, 1)  not replacing
+H__3_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_21: replacing with value 0 bnd= 3 totsize= 5.0876
+H__4_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__4_21: replacing with value 2 bnd= 3 totsize= 6.18621
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5  (1, 1)  not replacing
+H__6 odds = 1/1.66667  (3, 3)  not replacing
+H__7_23 odds = 1/1.66667 0.291313 (3, 3)  try to replace
+H__7_23: replacing with value 0 bnd= 2 totsize= 6.87936
+H__8_23 odds = 1/1.66667 0.291313 (3, 3)  try to replace
+H__8_23: replacing with value 0 bnd= 2 totsize= 7.5725
+inlined 61 new size =3827
+H__6 odds = 1/0.294118 0.935409 (17, 17)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 8.26565
+inlined 36 new size =6124
+inlined 0 new size =5431
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =5
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 5221
+* Final Problem size: Problem nodes = 5221
+  # OF CONTROLS:    10
+ control_ints = 7 	 control_bits = 3
+inputSize = 10	ctrlSize = 35
+Random seeds = 1
+!+ 00001100001010000101001000000101000
+!+ H__4_17:0
+H__5_17:0
+H__2_17:6
+H__5_18:0
+H__1_17:10
+H__1_18:8
+H__2_18:9
+H__5_21:0
+H__1_21:16
+H__2_21:2
+
+BEG CHECK
+ * After optims it became = 5116 was 5221
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.008
+!% 1001110000
+!% intSet_2_1f_idx_0_0:1
+intSet_2_1f_idx_1_0:2
+intSet_2_1f_idx_2_0:3
+intSet_2_1f_idx_3_0:0
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 244 was 5221
+ * After all optims it became = 244
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+Problem became UNSAT.237= ASSERT 236 : Assert at main_int0.sk:45 (7267800083281316039)
+ finder  hits = 101	 bstoreObjs=717	 sstorePages=1
+hitcount 	0	640	0
+hitcount 	1	53	0
+hitcount 	2	24	0
+bucketsPerDepth 	0	406
+bucketsPerDepth 	1	123
+bucketsPerDepth 	2	17
+bucketsPerDepth 	3	1
+* TIME TO ADD INPUT :  0.004 ms 
+f# %assign: 0 clauses: 2297 learn: 0 restart: 0 decision: 0 propagated: 6
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.004 ms 
+* CHECK TIME:  0.008 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.004 CHECK TIME 0.008 TOTAL TIME 0.012
+RESULT = 1  
+**ROUND 0 : 8.26565 Round time:  0.042 ms 
+RNDDEG = 5
+SUMMRY , 2, 15, 301, 313, 583, 599, 866, 868, 864
+ charness = 0
+POST-SUMMRY , 2, 15, 301, 313, 583, 599, 864, 866, 868
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 1
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 5	 main__Wrapper_ANONYMOUS::SKETCH nodes = 9
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 5 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =122
+inlined 5 new size =260
+H__0 odds = 1/0.27027 0.951746 (37, 37)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =1961
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_17: replacing with value 0 bnd= 3 totsize= 1.79176
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667  (6, 6)  not replacing
+H__4_18 odds = 1/1.66667  (6, 6)  not replacing
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10  (1, 1)  not replacing
+H__3_21 odds = 1/1.66667  (6, 6)  not replacing
+H__4_21 odds = 1/1.66667  (6, 6)  not replacing
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10  (1, 1)  not replacing
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_23 odds = 1/3.33333  (3, 3)  not replacing
+H__8_23 odds = 1/3.33333  (3, 3)  not replacing
+inlined 61 new size =4054
+H__7_23 odds = 1/0.25 0.964028 (40, 40)  try to replace
+H__7_23: replacing with value 1 bnd= 2 totsize= 2.48491
+H__6 odds = 1/0.208333 0.983675 (48, 48)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 3.17805
+H__8_23 odds = 1/0.25 0.964028 (40, 40)  try to replace
+H__8_23: replacing with value 1 bnd= 2 totsize= 3.8712
+inlined 36 new size =6268
+inlined 0 new size =5575
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =5
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 5365
+* Final Problem size: Problem nodes = 5365
+  # OF CONTROLS:    14
+ control_ints = 11 	 control_bits = 3
+inputSize = 10	ctrlSize = 43
+Random seeds = 1
+!+ 0000001001000010111000110000000011101110101
+!+ H__3_17:0
+H__3_18:0
+H__4_18:0
+H__3_21:1
+H__4_21:2
+H__5_17:0
+H__1_17:8
+H__2_17:7
+H__5_18:0
+H__1_18:3
+H__2_18:0
+H__5_21:1
+H__1_21:27
+H__2_21:21
+
+BEG CHECK
+ * After optims it became = 5293 was 5365
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.006
+!% 0010000100
+!% intSet_2_1f_idx_0_0:0
+intSet_2_1f_idx_1_0:1
+intSet_2_1f_idx_2_0:0
+intSet_2_1f_idx_3_0:2
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 41 was 5365
+ * After all optims it became = 41
+ finder  hits = 0	 bstoreObjs=897	 sstorePages=3
+hitcount 	0	897	0
+bucketsPerDepth 	0	399
+bucketsPerDepth 	1	185
+bucketsPerDepth 	2	31
+bucketsPerDepth 	3	3
+* TIME TO ADD INPUT :  0.006 ms 
+f# %assign: 17 clauses: 8318 learn: 20 restart: 1 decision: 318 propagated: 1250
+END FIND
+!+ 1000001000000011110100100000101000001000010
+!+ H__3_17:1
+H__3_18:0
+H__4_18:0
+H__3_21:1
+H__4_21:0
+H__5_17:0
+H__1_17:24
+H__2_17:11
+H__5_18:0
+H__1_18:1
+H__2_18:10
+H__5_21:0
+H__1_21:8
+H__2_21:8
+
+BEG CHECK
+ * After optims it became = 5238 was 5365
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.003 ms 
+END CHECK
+********  1	ftime= 0.008	ctime= 0.009
+!% 0000101000
+!% intSet_2_1f_idx_0_0:0
+intSet_2_1f_idx_1_0:0
+intSet_2_1f_idx_2_0:1
+intSet_2_1f_idx_3_0:1
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 44 was 5365
+ * After all optims it became = 44
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+Problem became UNSAT.40= ASSERT 39 : Assert at main_int0.sk:45 (7267800083281316039)
+ finder  hits = 194	 bstoreObjs=1123	 sstorePages=4
+hitcount 	0	929	0
+hitcount 	1	194	0
+bucketsPerDepth 	0	398
+bucketsPerDepth 	1	235
+bucketsPerDepth 	2	62
+bucketsPerDepth 	3	8
+* TIME TO ADD INPUT :  0.004 ms 
+f# %assign: 14 clauses: 12782 learn: 20 restart: 1 decision: 318 propagated: 1250
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.004 ms 0.012 ms
+* CHECK TIME:  0.009 ms 0.015 ms
+ *FAILED IN 2 iterations.
+ *FIND TIME 0.012 CHECK TIME 0.015 TOTAL TIME 0.027
+RESULT = 1  
+**ROUND 1 : 3.8712 Round time:  0.056 ms 
+RNDDEG = 10
+SUMMRY , 2, 23, 867, 864, 869
+ charness = 0
+POST-SUMMRY , 2, 23, 864, 867, 869
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 2
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 5	 main__Wrapper_ANONYMOUS::SKETCH nodes = 9
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 5 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =122
+inlined 5 new size =260
+H__0 odds = 1/0.135135 0.998778 (37, 37)  try to replace
+H__0: replacing with value 1 bnd= 2 totsize= 0.693147
+inlined 15 new size =1961
+H__3_17 odds = 1/0.833333  (6, 6)  not replacing
+H__4_17 odds = 1/0.833333  (6, 6)  not replacing
+H__5_17 odds = 1/5 0.099668 (1, 1)  try to replace
+H__5_17: replacing with value 1 bnd= 2 totsize= 1.38629
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333  (6, 6)  not replacing
+H__4_18 odds = 1/0.833333  (6, 6)  not replacing
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5  (1, 1)  not replacing
+H__3_21 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_21: replacing with value 0 bnd= 3 totsize= 2.48491
+H__4_21 odds = 1/0.833333  (6, 6)  not replacing
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5  (1, 1)  not replacing
+H__6 odds = 1/1.66667 0.291313 (3, 3)  try to replace
+H__6: replacing with value 1 bnd= 2 totsize= 3.17805
+H__7_23 odds = 1/1.66667 0.291313 (3, 3)  try to replace
+H__7_23: replacing with value 1 bnd= 2 totsize= 3.8712
+H__8_23 odds = 1/1.66667  (3, 3)  not replacing
+inlined 61 new size =3987
+H__8_23 odds = 1/0.125 0.999329 (40, 40)  try to replace
+H__8_23: replacing with value 0 bnd= 2 totsize= 4.56435
+inlined 36 new size =6185
+inlined 0 new size =5492
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =5
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 5282
+* Final Problem size: Problem nodes = 5282
+  # OF CONTROLS:    13
+ control_ints = 11 	 control_bits = 2
+inputSize = 10	ctrlSize = 42
+Random seeds = 1
+!+ 100000101000101010000010000100100010011010
+!+ H__3_17:1
+H__4_17:0
+H__3_18:0
+H__4_18:1
+H__4_21:1
+H__5_21:0
+H__1_21:10
+H__2_21:1
+H__1_17:2
+H__2_17:18
+H__5_18:0
+H__1_18:4
+H__2_18:11
+
+BEG CHECK
+ * After optims it became = 5229 was 5282
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.006
+!% 0001000100
+!% intSet_2_1f_idx_0_0:0
+intSet_2_1f_idx_1_0:2
+intSet_2_1f_idx_2_0:0
+intSet_2_1f_idx_3_0:2
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 26 was 5282
+ * After all optims it became = 26
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+digraph G{
+16= (0)
+17= ASSERT (0) : Assert at main_int0.sk:45 (7267800083281316039)
+}
+ slice size = 2
+
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+Problem became UNSAT.17= ASSERT (0) : Assert at main_int0.sk:45 (7267800083281316039)
+ finder  hits = 0	 bstoreObjs=380	 sstorePages=1
+hitcount 	0	380	0
+bucketsPerDepth 	0	304
+bucketsPerDepth 	1	35
+bucketsPerDepth 	2	1
+* TIME TO ADD INPUT :  0.002 ms 
+f# %assign: 1 clauses: 1140 learn: 0 restart: 0 decision: 0 propagated: 6
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.002 ms 
+* CHECK TIME:  0.006 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.002 CHECK TIME 0.006 TOTAL TIME 0.008
+RESULT = 1  
+**ROUND 2 : 4.56435 Round time:  0.034 ms 
+RNDDEG = 5
+SUMMRY , 3, 31, 583, 865, 867, 868
+ charness = 0
+POST-SUMMRY , 3, 31, 583, 865, 867, 868
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 3
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 5	 main__Wrapper_ANONYMOUS::SKETCH nodes = 9
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 5 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =122
+inlined 5 new size =260
+H__0 odds = 1/0.27027 0.951746 (37, 37)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =1961
+H__3_17 odds = 1/1.66667  (6, 6)  not replacing
+H__4_17 odds = 1/1.66667  (6, 6)  not replacing
+H__5_17 odds = 1/10  (1, 1)  not replacing
+H__1_17 odds = 1/10  (1, 1)  not replacing
+H__2_17 odds = 1/10  (1, 1)  not replacing
+H__3_18 odds = 1/1.66667  (6, 6)  not replacing
+H__4_18 odds = 1/1.66667  (6, 6)  not replacing
+H__5_18 odds = 1/10  (1, 1)  not replacing
+H__1_18 odds = 1/10  (1, 1)  not replacing
+H__2_18 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__2_18: replacing with value 2 bnd= 32 totsize= 4.15888
+H__3_21 odds = 1/1.66667  (6, 6)  not replacing
+H__4_21 odds = 1/1.66667 0.291313 (6, 6)  try to replace
+H__4_21: replacing with value 1 bnd= 3 totsize= 5.2575
+H__5_21 odds = 1/10  (1, 1)  not replacing
+H__1_21 odds = 1/10 0.0499584 (1, 1)  try to replace
+H__1_21: replacing with value 5 bnd= 32 totsize= 8.72323
+H__2_21 odds = 1/10  (1, 1)  not replacing
+H__6 odds = 1/3.33333  (3, 3)  not replacing
+H__7_23 odds = 1/3.33333  (3, 3)  not replacing
+H__8_23 odds = 1/3.33333 0.148885 (3, 3)  try to replace
+H__8_23: replacing with value 0 bnd= 2 totsize= 9.41638
+inlined 61 new size =4017
+H__7_23 odds = 1/0.25 0.964028 (40, 40)  try to replace
+H__7_23: replacing with value 0 bnd= 2 totsize= 10.1095
+H__6 odds = 1/0.208333 0.983675 (48, 48)  try to replace
+H__6: replacing with value 1 bnd= 2 totsize= 10.8027
+inlined 36 new size =6192
+inlined 0 new size =5499
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =5
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 5289
+* Final Problem size: Problem nodes = 5289
+  # OF CONTROLS:    12
+ control_ints = 9 	 control_bits = 3
+inputSize = 10	ctrlSize = 33
+Random seeds = 1
+!+ 100011000001001000000100000001000
+!+ H__3_17:1
+H__4_17:0
+H__3_18:3
+H__4_18:0
+H__3_21:0
+H__5_17:0
+H__1_17:9
+H__2_17:0
+H__5_18:1
+H__1_18:0
+H__5_21:0
+H__2_21:2
+
+BEG CHECK
+ * After optims it became = 5164 was 5289
+regen H__3
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.006
+!% 1101000000
+!% intSet_2_1f_idx_0_0:3
+intSet_2_1f_idx_1_0:2
+intSet_2_1f_idx_2_0:0
+intSet_2_1f_idx_3_0:0
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 2272 was 5289
+ * After all optims it became = 2272
+ finder  hits = 3977	 bstoreObjs=35376	 sstorePages=38
+hitcount 	0	32759	4
+hitcount 	1	2170	3
+hitcount 	2	191	1
+hitcount 	3	106	0
+hitcount 	4	21	2
+hitcount 	5	66	0
+hitcount 	11	63	0
+bucketsPerDepth 	5	6
+bucketsPerDepth 	6	63
+bucketsPerDepth 	7	194
+bucketsPerDepth 	8	297
+bucketsPerDepth 	9	240
+bucketsPerDepth 	10	133
+bucketsPerDepth 	11	58
+bucketsPerDepth 	12	25
+bucketsPerDepth 	13	6
+bucketsPerDepth 	15	2
+* TIME TO ADD INPUT :  0.045 ms 
+f# %assign: 0 clauses: 126922 learn: 17 restart: 1 decision: 234 propagated: 56287
+END FIND
+!+ 010000100000000110110000011001100
+!+ H__3_17:2
+H__4_17:0
+H__3_18:0
+H__4_18:1
+H__3_21:0
+H__5_17:0
+H__1_17:16
+H__2_17:13
+H__5_18:0
+H__1_18:24
+H__5_21:0
+H__2_21:6
+
+BEG CHECK
+ * After optims it became = 5213 was 5289
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  1	ftime= 0.063	ctime= 0.008
+!% 1000000100
+!% intSet_2_1f_idx_0_0:1
+intSet_2_1f_idx_1_0:0
+intSet_2_1f_idx_2_0:0
+intSet_2_1f_idx_3_0:2
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 1197 was 5289
+ * After all optims it became = 1197
+ finder  hits = 6303	 bstoreObjs=43775	 sstorePages=48
+hitcount 	0	39540	5
+hitcount 	1	3676	4
+hitcount 	2	83	5
+hitcount 	3	137	2
+hitcount 	4	179	0
+hitcount 	5	66	0
+hitcount 	8	10	5
+hitcount 	11	84	2
+bucketsPerDepth 	6	13
+bucketsPerDepth 	7	97
+bucketsPerDepth 	8	222
+bucketsPerDepth 	9	291
+bucketsPerDepth 	10	211
+bucketsPerDepth 	11	122
+bucketsPerDepth 	12	47
+bucketsPerDepth 	13	12
+bucketsPerDepth 	14	7
+bucketsPerDepth 	15	1
+bucketsPerDepth 	16	1
+* TIME TO ADD INPUT :  0.019 ms 
+f# %assign: 0 clauses: 156863 learn: 30 restart: 2 decision: 400 propagated: 106257
+END FIND
+!+ 010010100011000111101000001010010
+!+ H__3_17:2
+H__4_17:0
+H__3_18:1
+H__4_18:1
+H__3_21:0
+H__5_17:1
+H__1_17:17
+H__2_17:23
+H__5_18:0
+H__1_18:16
+H__5_21:0
+H__2_21:9
+
+BEG CHECK
+ * After optims it became = 5204 was 5289
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.003 ms 
+END CHECK
+********  2	ftime= 0.031	ctime= 0.008
+!% 0011100100
+!% intSet_2_1f_idx_0_0:0
+intSet_2_1f_idx_1_0:3
+intSet_2_1f_idx_2_0:1
+intSet_2_1f_idx_3_0:2
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 34 was 5289
+ * After all optims it became = 34
+ finder  hits = 6511	 bstoreObjs=4333	 sstorePages=6
+hitcount 	1	3774	1
+hitcount 	2	81	1
+hitcount 	3	139	1
+hitcount 	4	71	1
+hitcount 	5	174	1
+hitcount 	8	10	1
+hitcount 	11	84	1
+bucketsPerDepth 	0	55
+bucketsPerDepth 	1	318
+bucketsPerDepth 	2	568
+bucketsPerDepth 	3	65
+* TIME TO ADD INPUT :  0.011 ms 
+f# %assign: 42 clauses: 156879 learn: 31 restart: 3 decision: 490 propagated: 152918
+END FIND
+!+ 100001100000010010110000010000010
+!+ H__3_17:1
+H__4_17:0
+H__3_18:2
+H__4_18:1
+H__3_21:0
+H__5_17:0
+H__1_17:4
+H__2_17:13
+H__5_18:0
+H__1_18:8
+H__5_21:0
+H__2_21:8
+
+BEG CHECK
+ * After optims it became = 5160 was 5289
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  3	ftime= 0.019	ctime= 0.007
+!% 0000000000
+!% intSet_2_1f_idx_0_0:0
+intSet_2_1f_idx_1_0:0
+intSet_2_1f_idx_2_0:0
+intSet_2_1f_idx_3_0:0
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 32 was 5289
+ * After all optims it became = 32
+ finder  hits = 6624	 bstoreObjs=4432	 sstorePages=6
+hitcount 	0	99	2
+hitcount 	1	3774	1
+hitcount 	2	78	1
+hitcount 	3	140	1
+hitcount 	4	73	1
+hitcount 	5	66	1
+hitcount 	6	108	1
+hitcount 	8	10	1
+hitcount 	11	84	1
+bucketsPerDepth 	0	52
+bucketsPerDepth 	1	299
+bucketsPerDepth 	2	560
+bucketsPerDepth 	3	96
+bucketsPerDepth 	4	3
+* TIME TO ADD INPUT :  0.005 ms 
+f# %assign: 42 clauses: 158849 learn: 31 restart: 4 decision: 499 propagated: 155951
+END FIND
+******** FAILED ********
+* FIND TIME:  0.006 ms 0.119 ms
+* CHECK TIME:  0.007 ms 0.029 ms
+ *FAILED IN 4 iterations.
+ *FIND TIME 0.119 CHECK TIME 0.029 TOTAL TIME 0.149
+RESULT = 1  
+**ROUND 3 : 10.8027 Round time:  0.177 ms 
+RNDDEG = 10
+SUMMRY , 2, 519, 597, 681, 868, 866, 865
+ charness = 0
+POST-SUMMRY , 2, 519, 597, 681, 865, 866, 868
+TRAIL: 
+ALLOK
+ALLRESET
+ATTEMPT 4
+Before readInfile
+Single: 
+Double: 
+Nothing read
+After readInfile
+Single: 
+Double: 
+cur=5 next=80 scorecur=3 scorenext=0
+Switch because next is better
+Averages 0, 3.13926
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 5	 main__Wrapper_ANONYMOUS::SKETCH nodes = 9
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 5 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =122
+inlined 5 new size =260
+H__0 odds = 1/2.16216 0.227214 (37, 37)  try to replace
+H__0: replacing with value 1 bnd= 2 totsize= 0.693147
+inlined 15 new size =1961
+H__3_17 odds = 1/13.3333  (6, 6)  not replacing
+H__4_17 odds = 1/13.3333  (6, 6)  not replacing
+H__5_17 odds = 1/80  (1, 1)  not replacing
+H__1_17 odds = 1/80  (1, 1)  not replacing
+H__2_17 odds = 1/80  (1, 1)  not replacing
+H__3_18 odds = 1/13.3333  (6, 6)  not replacing
+H__4_18 odds = 1/13.3333  (6, 6)  not replacing
+H__5_18 odds = 1/80  (1, 1)  not replacing
+H__1_18 odds = 1/80  (1, 1)  not replacing
+H__2_18 odds = 1/80  (1, 1)  not replacing
+H__3_21 odds = 1/13.3333  (6, 6)  not replacing
+H__4_21 odds = 1/13.3333  (6, 6)  not replacing
+H__5_21 odds = 1/80  (1, 1)  not replacing
+H__1_21 odds = 1/80  (1, 1)  not replacing
+H__2_21 odds = 1/80  (1, 1)  not replacing
+H__6 odds = 1/26.6667  (3, 3)  not replacing
+H__7_23 odds = 1/26.6667  (3, 3)  not replacing
+H__8_23 odds = 1/26.6667  (3, 3)  not replacing
+inlined 61 new size =4050
+H__7_23 odds = 1/2  (40, 40)  not replacing
+H__6 odds = 1/1.66667  (48, 48)  not replacing
+H__8_23 odds = 1/2  (40, 40)  not replacing
+inlined 36 new size =6278
+inlined 0 new size =5585
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =5
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 5375
+* Final Problem size: Problem nodes = 5375
+  # OF CONTROLS:    18
+ control_ints = 12 	 control_bits = 6
+inputSize = 10	ctrlSize = 48
+Random seeds = 1
+!+ 010100000000001000000001011000000010100000000010
+!+ H__3_17:2
+H__4_17:2
+H__3_18:0
+H__4_18:0
+H__3_21:0
+H__4_21:0
+H__5_21:0
+H__1_21:2
+H__2_21:0
+H__7_23:1
+H__6:0
+H__8_23:1
+H__5_17:1
+H__1_17:0
+H__2_17:20
+H__5_18:0
+H__1_18:0
+H__2_18:8
+
+BEG CHECK
+ * After optims it became = 5229 was 5375
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.002 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.006
+!% 0110100100
+!% intSet_2_1f_idx_0_0:2
+intSet_2_1f_idx_1_0:1
+intSet_2_1f_idx_2_0:1
+intSet_2_1f_idx_3_0:2
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 33 was 5375
+ * After all optims it became = 33
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+digraph G{
+19= (0)
+20= ASSERT (0) : Assert at main_int0.sk:45 (7267800083281316039)
+}
+ slice size = 2
+
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+Problem became UNSAT.20= ASSERT (0) : Assert at main_int0.sk:45 (7267800083281316039)
+ finder  hits = 0	 bstoreObjs=384	 sstorePages=1
+hitcount 	0	384	0
+bucketsPerDepth 	0	293
+bucketsPerDepth 	1	35
+bucketsPerDepth 	2	7
+* TIME TO ADD INPUT :  0.003 ms 
+f# %assign: 1 clauses: 1152 learn: 0 restart: 0 decision: 0 propagated: 7
+  UNSATISFIABLE ASSERTION Assert at main_int0.sk:45 (7267800083281316039)
+END FIND
+******** FAILED ********
+* FIND TIME:  0.003 ms 
+* CHECK TIME:  0.006 ms 
+ *FAILED IN 1 iterations.
+ *FIND TIME 0.003 CHECK TIME 0.006 TOTAL TIME 0.009
+RESULT = 1  
+**ROUND 4 : 0.693147 Round time:  0.036 ms 
+RNDDEG = 80
+SUMMRY , 3
+ charness = 0
+POST-SUMMRY , 3
+TRAIL: , 3
+ALLOK
+ALLRESET
+ATTEMPT 5
+* before  EVERYTHING: main__WrapperNospec_ANONYMOUS::SPEC nodes = 5	 main__Wrapper_ANONYMOUS::SKETCH nodes = 9
+ INBITS = 2
+ CBITS  = 5
+ input_ints = 5 	 input_bits = 0
+ Inlining amount = 5
+ Inlining functions in the sketch.
+inlined 1 new size =122
+inlined 5 new size =260
+H__0 odds = 1/0.135135 0.998778 (37, 37)  try to replace
+H__0: replacing with value 0 bnd= 2 totsize= 0.693147
+inlined 15 new size =1961
+H__3_17 odds = 1/0.833333 0.53705 (6, 6)  try to replace
+H__3_17: replacing with value 0 bnd= 3 totsize= 1.79176
+H__4_17 odds = 1/0.833333  (6, 6)  not replacing
+H__5_17 odds = 1/5  (1, 1)  not replacing
+H__1_17 odds = 1/5  (1, 1)  not replacing
+H__2_17 odds = 1/5  (1, 1)  not replacing
+H__3_18 odds = 1/0.833333  (6, 6)  not replacing
+H__4_18 odds = 1/0.833333  (6, 6)  not replacing
+H__5_18 odds = 1/5  (1, 1)  not replacing
+H__1_18 odds = 1/5  (1, 1)  not replacing
+H__2_18 odds = 1/5  (1, 1)  not replacing
+H__3_21 odds = 1/0.833333  (6, 6)  not replacing
+H__4_21 odds = 1/0.833333  (6, 6)  not replacing
+H__5_21 odds = 1/5  (1, 1)  not replacing
+H__1_21 odds = 1/5  (1, 1)  not replacing
+H__2_21 odds = 1/5 0.099668 (1, 1)  try to replace
+H__2_21: replacing with value 9 bnd= 32 totsize= 5.2575
+H__6 odds = 1/1.66667  (3, 3)  not replacing
+H__7_23 odds = 1/1.66667  (3, 3)  not replacing
+H__8_23 odds = 1/1.66667  (3, 3)  not replacing
+inlined 61 new size =4053
+H__7_23 odds = 1/0.125 0.999329 (40, 40)  try to replace
+H__7_23: replacing with value 0 bnd= 2 totsize= 5.95064
+H__6 odds = 1/0.104167 0.999865 (48, 48)  try to replace
+H__6: replacing with value 0 bnd= 2 totsize= 6.64379
+H__8_23 odds = 1/0.125 0.999329 (40, 40)  try to replace
+H__8_23: replacing with value 1 bnd= 2 totsize= 7.33694
+inlined 36 new size =6251
+inlined 0 new size =5558
+END OF STEP 0
+ Inlining functions in the spec.
+inlined 0 new size =5
+END OF STEP 0
+Bailing out
+after Creating Miter: Problem nodes = 5348
+* Final Problem size: Problem nodes = 5348
+  # OF CONTROLS:    13
+ control_ints = 10 	 control_bits = 3
+inputSize = 10	ctrlSize = 38
+Random seeds = 1
+!+ 10000000101101000001001000000110000010
+!+ H__4_17:1
+H__3_18:0
+H__4_18:0
+H__3_21:0
+H__4_21:1
+H__5_17:1
+H__1_17:5
+H__2_17:8
+H__5_18:0
+H__1_18:1
+H__2_18:12
+H__5_21:0
+H__1_21:8
+
+BEG CHECK
+ * After optims it became = 5275 was 5348
+Assert at main_int0.sk:45 (7267800083281316039)
+Simulation found a cex by random testing:  0.001 ms 
+END CHECK
+********  0	ftime= 0	ctime= 0.005
+!% 0000001000
+!% intSet_2_1f_idx_0_0:0
+intSet_2_1f_idx_1_0:0
+intSet_2_1f_idx_2_0:0
+intSet_2_1f_idx_3_0:1
+intSet_2_1f_idx_4_0:0
+
+BEG FIND
+Level 1  intsize = 2
+ * After optims it became = 42 was 5348
+ * After all optims it became = 42
+ finder  hits = 0	 bstoreObjs=744	 sstorePages=2
+hitcount 	0	744	0
+bucketsPerDepth 	0	364
+bucketsPerDepth 	1	149
+bucketsPerDepth 	2	20
+* TIME TO ADD INPUT :  0.004 ms 
+f# %assign: 9 clauses: 8138 learn: 20 restart: 1 decision: 297 propagated: 1198
+END FIND
+!+ 00010010000000001101000001101010000010
+!+ H__4_17:0
+H__3_18:2
+H__4_18:0
+H__3_21:1
+H__4_21:0
+H__5_17:0
+H__1_17:0
+H__2_17:11
+H__5_18:0
+H__1_18:24
+H__2_18:10
+H__5_21:0
+H__1_21:8
+
+BEG CHECK
+ * After optims it became = 2367 was 5348
+ TESTING HYPOTHESIS ITER 1
+dagmain__WrapperNospec_ANONYMOUS{
+0= (3)
+intSet_2_1f_idx_0_0
+2= (3) < intSet_2_1f_idx_0_0 
+3= 2 ! 
+4= ASSERT (!2) : 
+}
+SLICE SIZE = 5
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 481= (3) < intSet_2_1f_idx_0_0  = 0
+ reduced size from 2367 to 2363
+ TESTING HYPOTHESIS ITER 2
+dagmain__WrapperNospec_ANONYMOUS{
+0= (4)
+1= (0)
+intSet_2_1f_idx_0_0
+3= (0) < intSet_2_1f_idx_0_0 
+4= (-1)
+5= [3]$(-1), (0), $
+6= 5 == (-1) 
+7= (3)
+8= (-1){(3)->5}
+9= [6]$(0), 8, $
+10= (2)
+11= 8{(2)->5}
+12= [3]$9, 11, $
+13= 12[(4)]
+14= 3 | 6 
+15= (-1){(-1)->(0)}
+16= 15{(0)->(-1)}
+17= [3]$16, (-1), $
+18= [14]$(0), 17, $
+19= 18[13]
+20= (0)
+21= 19 == (0) 
+22= ASSERT 21 : 
+}
+SLICE SIZE = 23
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 27= 26[13] = 0
+ reduced size from 2363 to 2352
+ TESTING HYPOTHESIS ITER 3
+dagmain__WrapperNospec_ANONYMOUS{
+0= (0)
+intSet_2_1f_idx_0_0
+2= (0) < intSet_2_1f_idx_0_0 
+3= (-1)
+4= [2]$(-1), (0), $
+5= 4 == (-1) 
+6= 2 | 5 
+7= (-1){(-1)->(0)}
+8= 7{(0)->(-1)}
+9= [2]$8, (-1), $
+10= [6]$(0), 9, $
+11= 10[(0)]
+12= (-1)
+13= 11 == (-1) 
+14= ASSERT 13 : 
+}
+SLICE SIZE = 15
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 45= 44[(0)] = -1
+ reduced size from 2352 to 2338
+ TESTING HYPOTHESIS ITER 4
+dagmain__WrapperNospec_ANONYMOUS{
+0= (5)
+1= (0)
+intSet_2_1f_idx_0_0
+3= (0) < intSet_2_1f_idx_0_0 
+4= (-1)
+5= [3]$(-1), (0), $
+6= 5 == (-1) 
+7= (3)
+8= (-1){(3)->5}
+9= [6]$(0), 8, $
+10= (2)
+11= 8{(2)->5}
+12= [3]$9, 11, $
+13= 12[(5)]
+14= (-1)
+15= 13 == (-1) 
+16= ASSERT 15 : 
+}
+SLICE SIZE = 17
+c# %assign: 12 clauses: 12 learn: 0 restart: 0 decision: 0 propagated: 1
+ FOUND CONST: 191= 11[(5)] = -1
+ reduced size from 2338 to 2322
+ * Simulation optimized it to = 2322
+Simulation didn't find a cex:  0.016 ms 
+After all optim
+c# %assign: 99 clauses: 898 learn: 7 restart: 2 decision: 1394 propagated: 2949798
+END CHECK
+********  1	ftime= 0.004	ctime= 1999.47
+ *GOT THE CORRECT ANSWER IN 2 iterations.
+ *FIND TIME 0.004 CHECK TIME 1999.48 TOTAL TIME 1999.48
+RESULT = 0  
+**ROUND 5 : 7.33694 Round time:  1999.51 ms 
+RNDDEG = 5
+return 0
+
+----- Statistics -----
+Total elapsed time (ms):  1999.9
+Model building time (ms): 0.017
+Solution time (ms):       1999.88
+Max virtual mem (bytes):  199757824
+Max resident mem (bytes): 105725952
+Max private mem (bytes):  195076096
+ALL CORRECT
+
+[SATBackend] Stats for last run:
+      [solution stats]
+      successful? ---------------------> true
+      elapsed time (s) ----------------> 1.98
+      model building time (s) ---------> 0.0
+      solution time (s) ---------------> 1.999
+      max memory usage (MiB) ----------> 190.5039
+      [SAT-specific solution stats]
+      initial number of nodes ---------> 9
+      number of nodes after opts ------> 5221
+      number of controls --------------> 10
+      total number of control bits ----> 35
+
+[SATBackend] === parallel trial w/ degree -1 (9) solved ===
+[SATBackend] === resolved within 1 complete parallel trial(s)
+[SATBackend] destroying java.lang.UNIXProcess@fad74ee
+[SATBackend] destroying java.lang.UNIXProcess@1a1d6a08
+[SATBackend] destroying java.lang.UNIXProcess@37d31475
+[SATBackend] destroying java.lang.UNIXProcess@27808f31
+[SATBackend] destroying java.lang.UNIXProcess@436e852b
+[SATBackend] destroying java.lang.UNIXProcess@32d2fa64
+[SATBackend] destroying java.lang.UNIXProcess@1d8d30f7
+[SATBackend] destroying java.lang.UNIXProcess@3e57cd70
+[SATBackend] destroying java.lang.UNIXProcess@9a7504c
+[SATBackend] destroying java.lang.UNIXProcess@2c039ac6
+[SATBackend] destroying java.lang.UNIXProcess@587d1d39
+[SATBackend] destroying java.lang.UNIXProcess@58c1670b
+[SATBackend] destroying java.lang.UNIXProcess@6b57696f
+[SATBackend] destroying java.lang.UNIXProcess@5bb21b69
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (6) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (13) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (0) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (7) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (2) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (10) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (14) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (8) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (1) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (11) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (5) done, but aborted ===
+[SATBackend] === parallel trial w/ degree -1 (12) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (4) done, but aborted ===
+[SATBackend] Solver exit value: 3
+[SATBackend] The sketch cannot be resolved.
+[SATBackend] === parallel trial w/ degree -1 (3) done, but aborted ===
+/* BEGIN PACKAGE ANONYMOUS*/
+struct Sum {
+}
+/*main_int0.sk:20*/
+
+void _main (int[5] intSet, ref global bit loop0__ANONYMOUS_s55)/*main_int0.sk:20*/
+{
+  int[3] data = {0,0,0};
+  data[0] = intSet[3];
+  data[1] = intSet[2];
+  data[2] = intSet[1];
+  loop0__ANONYMOUS_s55 = 0;
+  int i;
+  i = intSet[0];
+  bit _out_s12 = 0;
+  loopInvariant(data, 0, 0, 0, 0, _out_s12);
+  assert (_out_s12); //Assert at main_int0.sk:39 (6723278673449018964)
+  bit _pac_sc_s13_s15 = 0;
+  loopInvariant(data, intSet[4], 0, i, 0, _pac_sc_s13_s15);
+  bit _pac_sc_s13;
+  _pac_sc_s13 = _pac_sc_s13_s15;
+  if(_pac_sc_s13_s15)/*main_int0.sk:40*/
+  {
+    _pac_sc_s13 = i < 3;
+  }
+  if(_pac_sc_s13)/*main_int0.sk:40*/
+  {
+    int ind_sum = (intSet[4]) + (data[i]);
+    bit _out_s17 = 0;
+    loopInvariant(data, ind_sum, 0, i + 1, 0, _out_s17);
+    assert (_out_s17); //Assert at main_int0.sk:45 (7267800083281316039)
+  }
+  bit _pac_sc_s18_s20 = 0;
+  loopInvariant(data, intSet[4], 0, i, 0, _pac_sc_s18_s20);
+  bit _pac_sc_s18;
+  _pac_sc_s18 = _pac_sc_s18_s20;
+  if(_pac_sc_s18_s20)/*main_int0.sk:47*/
+  {
+    _pac_sc_s18 = !(i < 3);
+  }
+  if(_pac_sc_s18)/*main_int0.sk:47*/
+  {
+    bit _out_s22 = 0;
+    postCondition(data, intSet[4], 0, i, 0, _out_s22);
+    assert (_out_s22); //Assert at main_int0.sk:48 (-8248888833434728453)
+  }
+}
+/*main_int0.sk:216*/
+
+void collect (List resMR, int sum0, ref Output _out)/*main_int0.sk:216*/
+{
+  _out = null;
+  _out = new Output@Output();
+  int _out_s46 = 0;
+  int_get@KvPairList(resMR, 0, sum0, _out_s46);
+  _out.sum = _out_s46;
+  return;
+}
+/*main_int0.sk:90*/
+
+void do_map (int[3] data, int i, ref List _out)/*main_int0.sk:90*/
+{
+  _out = null;
+  _out = new List@KvPairList();
+  Pair@KvPairList kvp = new Pair@KvPairList();
+  kvp.intkey = 0;
+  int _terminal1 = data[i];
+  kvp.value = _terminal1;
+  intlist_put@KvPairList(_out, kvp);
+  return;
+}
+/*main_int0.sk:117*/
+
+void do_reduce (ListNode values_0, ref Pair _out)/*main_int0.sk:117*/
+{
+  _out = null;
+  ListNode@KvPairList values = values_0;
+  _out = new Pair@KvPairList();
+  if(values_0 == (null))/*main_int0.sk:120*/
+  {
+    return;
+  }
+  _out.intkey = values_0.intkey;
+  _out.intkey2 = values_0.intkey2;
+  _out.value = 0;
+  while(values != (null))
+  {
+    int val1 = _out.value;
+    int val2 = values.value;
+    _out.value = val2 + val1;
+    values = values.next;
+  }
+  return;
+}
+/*main_int0.sk:12*/
+
+void glblInit_mapKeyType__ANONYMOUS_s58 (ref int mapKeyType__ANONYMOUS_s57)/*main_int0.sk:12*/
+{
+  mapKeyType__ANONYMOUS_s57 = 0;
+}
+/*main_int0.sk:60*/
+
+void loopInvariant (int[3] data, int sum, int sum0, int i, int i0, ref bit _out)/*main_int0.sk:60*/
+{
+  _out = 0;
+  List@KvPairList resMR_s50 = null;
+  map(data, i0, i, resMR_s50);
+  List@KvPairList resMR_s52 = null;
+  reduce(resMR_s50, resMR_s52);
+  Output@Output resMR_s54 = null;
+  collect(resMR_s52, sum0, resMR_s54);
+  _out = (((resMR_s54.sum) == sum) && (0 <= i)) && (i <= 3);
+  return;
+}
+/*main_int0.sk:20*/
+
+void main__Wrapper (int[5] intSet)  implements main__WrapperNospec/*main_int0.sk:20*/
+{
+  global bit loop0__ANONYMOUS_s56 = 0;
+  _main(intSet, loop0__ANONYMOUS_s56);
+}
+/*main_int0.sk:20*/
+
+void main__WrapperNospec (int[5] intSet)/*main_int0.sk:20*/
+{ }
+/*main_int0.sk:143*/
+
+void map (int[3] data, int i0, int i, ref List _out)/*main_int0.sk:143*/
+{
+  _out = null;
+  _out = new List@KvPairList(handle=null);
+  int _i = i0;
+  while((_i < i) && (_i < 3))
+  {
+    List@KvPairList kvPairs_s30 = null;
+    do_map(data, _i, kvPairs_s30);
+    intlist_merge@KvPairList(_out, kvPairs_s30);
+    _i = _i + 1;
+  }
+  return;
+}
+/*main_int0.sk:55*/
+
+void postCondition (int[3] data, int sum, int sum0, int i, int i0, ref bit _out)/*main_int0.sk:55*/
+{
+  _out = 0;
+  List@KvPairList resMR_s24 = null;
+  map(data, i0, i, resMR_s24);
+  List@KvPairList resMR_s26 = null;
+  reduce(resMR_s24, resMR_s26);
+  Output@Output resMR_s28 = null;
+  collect(resMR_s26, sum0, resMR_s28);
+  _out = (resMR_s28.sum) == sum;
+  return;
+}
+/*main_int0.sk:167*/
+
+void reduce (List kvPairs, ref List _out)/*main_int0.sk:167*/
+{
+  _out = null;
+  _out = new List@KvPairList(handle=null);
+  if((kvPairs.handle) == (null))/*main_int0.sk:171*/
+  {
+    return;
+  }
+  ListNode@KvPairList ptr_st = kvPairs.handle;
+  ListNode@KvPairList ptr_end = kvPairs.handle;
+  bit __sa0 = (ptr_end.next) != (null);
+  while(__sa0)
+  {
+    if(((1 && ((ptr_end.next.intkey) == (ptr_st.intkey))) && ((ptr_end.next.intkey2) == (ptr_st.intkey2))) || 0)/*main_int0.sk:179*/
+    {
+      ptr_end = ptr_end.next;
+    }
+    else
+    {
+      ListNode@KvPairList ptr_temp = ptr_end.next;
+      ptr_end.next = null;
+      Pair@KvPairList kv_s40 = null;
+      do_reduce(ptr_st, kv_s40);
+      intlist_insert@KvPairList(_out, kv_s40);
+      ptr_st = ptr_temp;
+      ptr_end = ptr_temp;
+    }
+    __sa0 = (ptr_end.next) != (null);
+  }
+  Pair@KvPairList kv_s42 = null;
+  do_reduce(ptr_st, kv_s42);
+  intlist_insert@KvPairList(_out, kv_s42);
+  return;
+}
+/* END PACKAGE ANONYMOUS*/
+/* BEGIN PACKAGE KvPairList*/
+package KvPairList{
+  struct Pair {
+      int intkey;
+      int intkey2;
+      int stringkey;
+      int value;
+  }
+  struct ListNode {
+      int intkey;
+      int intkey2;
+      int stringkey;
+      int value;
+      ListNode next;
+  }
+  struct List {
+      ListNode handle;
+      int length;
+  }
+  /*kvpair_..t_int0.sk:219*/
+  
+void int_get (List l, int key, int initial, ref int _out)/*kvpair_..t_int0.sk:219*/
+  {
+    _out = 0;
+    ListNode@KvPairList ptr = l.handle;
+    while(ptr != (null))
+    {
+      if((ptr.intkey) == key)/*kvpair_..t_int0.sk:222*/
+      {
+        int option0 = (ptr.value) + initial;
+        _out = option0;
+        return;
+      }
+      ptr = ptr.next;
+    }
+    _out = initial;
+    return;
+  }
+  /*kvpair_..t_int0.sk:69*/
+  
+void intlist_insert (List l, Pair kvPair)/*kvpair_..t_int0.sk:69*/
+  {
+    ListNode@KvPairList ptr = l.handle;
+    l.handle = new ListNode();
+    l.handle.intkey = kvPair.intkey;
+    l.handle.intkey2 = kvPair.intkey2;
+    l.handle.value = kvPair.value;
+    l.handle.next = ptr;
+    if(ptr == (null))/*kvpair_..t_int0.sk:78*/
+    {
+      l.length = 1;
+    }
+    else
+    {
+      l.length = (l.length) + 1;
+    }
+  }
+  /*kvpair_..t_int0.sk:27*/
+  
+void intlist_merge (List result, List kvPairs)/*kvpair_..t_int0.sk:27*/
+  {
+    if((result.handle) == (null))/*kvpair_..t_int0.sk:29*/
+    {
+      result.handle = kvPairs.handle;
+      result.length = kvPairs.length;
+      return;
+    }
+    ListNode@KvPairList ptr = kvPairs.handle;
+    while(ptr != (null))
+    {
+      Pair@KvPairList kvPair = new Pair();
+      kvPair.intkey = ptr.intkey;
+      kvPair.intkey2 = ptr.intkey2;
+      kvPair.value = ptr.value;
+      intlist_put(result, kvPair);
+      ptr = ptr.next;
+    }
+  }
+  /*kvpair_..t_int0.sk:99*/
+  
+void intlist_put (List l, Pair kvPair)/*kvpair_..t_int0.sk:99*/
+  {
+    if((l.handle) == (null))/*kvpair_..t_int0.sk:101*/
+    {
+      l.handle = new ListNode();
+      l.handle.intkey = kvPair.intkey;
+      l.handle.intkey2 = kvPair.intkey2;
+      l.handle.value = kvPair.value;
+      l.handle.next = null;
+      l.length = 1;
+      return;
+    }
+    ListNode@KvPairList ptr = l.handle;
+    bit __sa1 = (ptr.next) != (null);
+    while(__sa1)
+    {
+      if(((ptr.intkey) == (kvPair.intkey)) && ((ptr.intkey2) == (kvPair.intkey2)))/*kvpair_..t_int0.sk:118*/
+      {
+        ListNode@KvPairList temp = ptr.next;
+        ptr.next = new ListNode();
+        ptr.next.intkey = kvPair.intkey;
+        ptr.next.intkey2 = kvPair.intkey2;
+        ptr.next.value = kvPair.value;
+        ptr.next.next = temp;
+        l.length = (l.length) + 1;
+        return;
+      }
+      else
+      {
+        ptr = ptr.next;
+      }
+      __sa1 = (ptr.next) != (null);
+    }
+    ptr.next = new ListNode();
+    ptr.next.intkey = kvPair.intkey;
+    ptr.next.intkey2 = kvPair.intkey2;
+    ptr.next.value = kvPair.value;
+    ptr.next.next = null;
+    l.length = (l.length) + 1;
+    return;
+  }
+  /* END PACKAGE KvPairList*/
+}
+/* BEGIN PACKAGE Output*/
+package Output{
+  struct Output {
+      int sum;
+  }
+  /* END PACKAGE Output*/
+}
+[SKETCH] DONE
+Total time = 2495

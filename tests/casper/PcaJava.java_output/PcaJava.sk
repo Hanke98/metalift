@@ -1,0 +1,8 @@
+struct PcaJava{
+	int DEF_GRID_SIZE;
+	int num_rows;
+	int num_cols;
+	int grid_size;
+	int DEF_NUM_ROWS;
+	int DEF_NUM_COLS;
+	}
