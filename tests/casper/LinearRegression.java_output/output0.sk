@@ -1,0 +1,27 @@
+/******************************************************************************/
+/* Declare package                                                            */
+
+package Output;
+
+
+/******************************************************************************/
+/* Include necessory packages                                                 */
+
+//<include-libs>
+
+
+/*
+<insert-output-variable-comment>
+*/
+
+/******************************************************************************/
+/* Class encapsulating all output variables                                    */
+
+struct Output{
+	int SX_ll;
+	int SXX_ll;
+	int SY_ll;
+	int SYY_ll;
+	int SXY_ll;
+	
+}
