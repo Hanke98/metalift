@@ -339,6 +339,8 @@ class VC:
                     else:
                         raise Exception("failed to match struct %s: " % t)
                     s.mem[i] = Object(Type(tname))
+                elif t.startswith("%struct.dict*"):
+                    s.mem[i] = Lit(0, Map(Int(), Int()))
                 else:
                     raise Exception("NYI: %s" % i)
 

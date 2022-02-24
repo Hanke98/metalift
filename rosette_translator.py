@@ -53,6 +53,28 @@ def genVar(v: Expr, decls: List[str], vars_all: List[str]) -> None:
             elem_names.append(elem_name)
 
         decls.append("(define %s (list %s))" % (v.args[0], " ".join(elem_names)))
+
+    elif v.type.name == "Map":
+        tmp = [v.args[0] + "_" + str(i) for i in range(2 * n)]
+        tmp.append(v.args[0] + "-len")
+        vars_all.extend(tmp)
+        if v.type.args[0].name == "Int":
+            decls.append("(define-symbolic %s integer?)" % (" ".join(tmp)))
+            decls.append(
+                "(define %s (take %s %s))"
+                % (
+                    v.args[0],
+                    "(list "
+                    + " ".join(
+                        [
+                            "(make-tuple " + " ".join(tmp[i : i + 2]) + ")"
+                            for i in range(0, len(tmp) - 1, 2)
+                        ]
+                    )
+                    + ")",
+                    tmp[-1],
+                )
+            )
     else:
         raise Exception(f"Unknown type: {v.type}")
 

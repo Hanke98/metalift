@@ -86,6 +86,10 @@ def Tuple(e1T: Type, e2T: Type, *elemT: Type) -> Type:
     return Type("Tuple", e1T, e2T, *elemT)
 
 
+def Map(kT: Type, vT: Type) -> Type:
+    return Type("Map", kT, vT)
+
+
 class Expr:
     class Kind(Enum):
         Var = "var"
@@ -436,6 +440,8 @@ class Expr:
                 #     self.type.name == "Function"
                 # ):
                 #     return "%s" % (self.args[0])
+                elif self.args[0] == "newMap":
+                    return "(%s)" % (self.args[0])
                 else:
                     return (
                         "("
@@ -809,8 +815,9 @@ def parseTypeRef(t: Union[Type, TypeRef]) -> Type:
         retType = [Int() for i in range(int(tyStr[-2]) + 1)]
         return Tuple(*retType)
     elif tyStr.startswith("%struct.tup"):
-        # ToDo FIX return type for multiple values
         return Tuple(Int(), Int())
+    elif tyStr.startswith("%struct.dict*"):
+        return Map(Int(), Int())
     else:
         raise Exception("NYI %s" % t)
 

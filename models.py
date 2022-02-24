@@ -94,6 +94,62 @@ def setField(
     return ReturnValue(None, None)
 
 
+def newMap(
+    regs: RegsType, mem: RegsType, gvars: GVarsType, *args: ValueRef
+) -> ReturnValue:
+    return ReturnValue(Call("newMap", Type("Map", Int(), Int())), None)
+
+
+def mapInsert(
+    regs: RegsType, mem: RegsType, gvars: GVarsType, *args: ValueRef
+) -> ReturnValue:
+    if args[2] in regs.keys():
+        return ReturnValue(
+            Call(
+                "mapInsert",
+                Type("Map", Int(), Int()),
+                regs[args[0]],
+                regs[args[1]],
+                regs[args[2]],
+            ),
+            None,
+        )
+    else:
+        return ReturnValue(
+            Call(
+                "mapInsert",
+                Type("Map", Int(), Int()),
+                regs[args[0]],
+                regs[args[1]],
+                parseOperand(args[2], regs),
+            ),
+            None,
+        )
+
+
+def mapGet(
+    regs: RegsType, mem: RegsType, gvars: GVarsType, *args: ValueRef
+) -> ReturnValue:
+    return ReturnValue(
+        Call("mapGet", Int(), regs[args[0]], regs[args[1]]),
+        None,
+    )
+
+
+def mapContains(
+    regs: RegsType, mem: RegsType, gvars: GVarsType, *args: ValueRef
+) -> ReturnValue:
+    return ReturnValue(
+        Call(
+            "mapContains",
+            Type(Int()),
+            regs[args[0]],
+            regs[args[1]],
+        ),
+        None,
+    )
+
+
 fnModels: Dict[str, Callable[..., ReturnValue]] = {
     # mangled names for non template version of list.h
     # "_Z7newListv": newlist,
@@ -153,4 +209,9 @@ fnModels: Dict[str, Callable[..., ReturnValue]] = {
     "_Z8tupleGetIJiiiiELi0EENSt3__19enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
     # TODO(shadaj): investigate why this is not necessary for all devs
     "_Z8tupleGetIJiiELi0EENSt9enable_ifIXltT0_sZT_EiE4typeEP3tupIJDpT_EEi": tupleGet,
+    # mangled names for map.h
+    "_Z6newMapIiiEP4dictIT_T0_Ev": newMap,
+    "_Z9mapInsertIiiEP4dictIT_T0_ES4_ii": mapInsert,
+    "_Z6mapGetIiiEiP4dictIT_T0_Ei": mapGet,
+    "_Z11mapContainsIiiEiP4dictIT_T0_Ei": mapContains,
 }

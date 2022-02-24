@@ -29,6 +29,10 @@
 (define (list-concat l1 l2)
   (append l1 l2))
 
+;no error list ref for nested lists
+(define (list-list-ref-noerr l i)
+  (if (&&  (>= i 0) (< i (length l))) (list-ref l i)
+      (list)))
 ; tuple functions
 
 (define (make-tuple e1 . es)
@@ -76,3 +80,27 @@
 
 (define (set-minus s1 s2)
   (filter (lambda (v) (not (set-member v s2))) s1))
+
+
+;map functions
+;maps are modelled as list of tuples
+(define (newMap)
+  (list))
+
+(define (getIdx m k)
+    (if (equal? (length m) 0) 0 (if (equal? (tupleGet (list-list-ref-noerr m 0) 0) k) 0
+        (+ 1 (getIdx (list-tail-noerr m 1) k)))))
+
+(define (mapContains m k)
+    (if (equal? (length m) 0) 0
+        (if (equal? (tupleGet (list-list-ref-noerr m 0) 0) k) 1
+            (mapContains (list-tail-noerr m 1) k))))
+
+(define (mapInsert m k v)
+  (if (equal? (mapContains m k) 0)
+    (append m (list (make-tuple k v)))
+    (list-set m (getIdx m k) (make-tuple k v))))
+
+(define (mapGet m k)
+    (if (equal? (length m) 0) 0 (if (equal? (tupleGet (list-list-ref-noerr m 0) 0) k) (tupleGet (list-list-ref-noerr m 0) 1)
+        (mapGet (list-tail-noerr m 1) k))))
