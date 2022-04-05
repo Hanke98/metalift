@@ -1,0 +1,17 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["bottom_rcv_buffer", "double[_N]"], ["depth", "int"], ["field", "double[_N*_N]"], ["index", "int"],["index_out", "int"], ["x_inc", "int"], ["x_max", "int"], ["x_min", "int"], ["y_min", "int"], ["bottom_rcv_buffer_0_lower", "int"], ["bottom_rcv_buffer_0_upper", "int"], ["field_0_upper", "int"], ["field_1_upper", "int"]] }
+
+k = 1
+while {k, (k < depth)}
+{
+j = (x_min - depth)
+while {j, (j < ((x_max + x_inc) + depth))}
+{
+index = ((j + depth) + ((k - 1) * ((x_max + x_inc) + (2 * depth))))
+field[(j + ((field_0_upper - -1) * (y_min - k)))] = bottom_rcv_buffer[index]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

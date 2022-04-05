@@ -1,0 +1,9 @@
+#INFO: { "loopvars": ["k"], "inputs": [["celly", "double[_N]"], ["vertexy", "double[_N]"], ["y_max", "int"], ["y_min", "int"], ["__float__0_5", "double"]] }
+
+k = (y_min - 2)
+while {k, (k < (y_max + 2))}
+{
+celly[k] = (__float__0_5 * (vertexy[k] + vertexy[(k + 1)]))
+k = (k + 1)
+}
+

@@ -1,0 +1,9 @@
+#INFO: { "loopvars": ["k"], "inputs": [["dy", "double"], ["vertexdy", "double[_N]"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = (y_min - 2)
+while {k, (k < (y_max + 3))}
+{
+vertexdy[k] = dy
+k = (k + 1)
+}
+

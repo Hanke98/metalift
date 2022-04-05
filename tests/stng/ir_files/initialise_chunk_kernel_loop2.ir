@@ -1,0 +1,9 @@
+#INFO: { "loopvars": ["j"], "inputs": [["cellx", "double[_N]"], ["vertexx", "double[_N]"], ["x_max", "int"], ["x_min", "int"], ["__float__0_5", "double"]] }
+
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+cellx[j] = (__float__0_5 * (vertexx[j] + vertexx[(j + 1)]))
+j = (j + 1)
+}
+

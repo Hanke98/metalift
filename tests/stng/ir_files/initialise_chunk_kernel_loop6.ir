@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["dx", "double"], ["dy", "double"], ["volume", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = (y_min - 2)
+while {k, (k < (y_max + 2))}
+{
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+volume[(j + (((x_max + 2) - (x_min - 2)) * k))] = (dx * dy)
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

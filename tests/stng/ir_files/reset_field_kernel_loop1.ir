@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["energy0", "double[_N*_N]"], ["energy1", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = y_min
+while {k, (k < y_max)}
+{
+j = x_min
+while {j, (j < x_max)}
+{
+energy0[(j + (((x_max + 2) - (x_min - 2)) * k))] = energy1[(j + (((x_max + 2) - (x_min - 2)) * k))]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

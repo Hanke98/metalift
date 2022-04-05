@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["number_of_states", "int"], ["state_yvel", "double[_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"], ["yvel0", "double[_N*_N]"]] }
+
+k = (y_min - 2)
+while {k, (k < (y_max + 2))}
+{
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+yvel0[(j + (((x_max + 3) - (x_min - 2)) * k))] = state_yvel[1]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

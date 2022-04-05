@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["density1", "double[_N*_N]"], ["node_mass_post", "double[_N*_N]"], ["post_vol", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"], ["__float__0_25", "double"]] }
+
+k = y_min
+while {k, (k < (y_max + 1))}
+{
+j = (x_min - 1)
+while {j, (j < (x_max + 2))}
+{
+node_mass_post[(j + (((x_max + 3) - (x_min - 2)) * k))] = (__float__0_25 * ((((density1[(j + (((x_max + 2) - (x_min - 2)) * (k - 1)))] * post_vol[(j + (((x_max + 3) - (x_min - 2)) * (k - 1)))]) + (density1[(j + (((x_max + 2) - (x_min - 2)) * k))] * post_vol[(j + (((x_max + 3) - (x_min - 2)) * k))])) + (density1[((j - 1) + (((x_max + 2) - (x_min - 2)) * (k - 1)))] * post_vol[((j - 1) + (((x_max + 3) - (x_min - 2)) * (k - 1)))])) + (density1[((j - 1) + (((x_max + 2) - (x_min - 2)) * k))] * post_vol[((j - 1) + (((x_max + 3) - (x_min - 2)) * k))])))
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

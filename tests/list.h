@@ -51,6 +51,21 @@ List<T> listConcat (List<T> in, List<T> e)
   return r;
 }
 
+template <class T>
+List<T> listSet (List<T> in, T e, T val) 
+{
+  List<T> r = newList<T>();
+  for (int i = 0; i < listLength(in); ++i)
+    if(i == e){
+      r->contents.push_back(val);
+    }
+    else
+    {
+      r->contents.push_back(listGet(in, i));
+    }
 
+  
+  return r;
+}
 
 

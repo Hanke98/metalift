@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["pressure", "double[_N*_N]"], ["stepbymass", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["xarea", "double[_N*_N]"], ["xvel0", "double[_N*_N]"], ["xvel1", "double[_N*_N]"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = y_min
+while {k, (k < (y_max + 1))}
+{
+j = x_min
+while {j, (j < (x_max + 1))}
+{
+xvel1[(j + (((x_max + 3) - (x_min - 2)) * k))] = (xvel0[(j + (((x_max + 3) - (x_min - 2)) * k))] - (stepbymass[(j + (((x_max + 3) - (x_min - 2)) * k))] * ((xarea[(j + (((x_max + 3) - (x_min - 2)) * k))] * (pressure[(j + (((x_max + 2) - (x_min - 2)) * k))] - pressure[((j - 1) + (((x_max + 2) - (x_min - 2)) * k))])) + (xarea[(j + (((x_max + 3) - (x_min - 2)) * (k - 1)))] * (pressure[(j + (((x_max + 2) - (x_min - 2)) * (k - 1)))] - pressure[((j - 1) + (((x_max + 2) - (x_min - 2)) * (k - 1)))])))))
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

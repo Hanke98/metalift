@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["celldx", "double[_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"], ["yarea", "double[_N*_N]"]] }
+
+k = (y_min - 2)
+while {k, (k < (y_max + 2))}
+{
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+yarea[(j + (((x_max + 2) - (x_min - 2)) * k))] = celldx[j]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

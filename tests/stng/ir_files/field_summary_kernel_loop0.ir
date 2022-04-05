@@ -1,0 +1,38 @@
+#INFO: { "loopvars": ["k", "j", "kv", "jv"], "inputs": [["cell_mass", "double"],["cell_mass_out", "double"], ["cell_vol", "double"],["cell_vol_out", "double"], ["density0", "double[_N*_N]"], ["energy0", "double[_N*_N]"], ["ie", "double"],["ie_out", "double"], ["ke", "double"],["ke_out", "double"], ["mass", "double"],["mass_out", "double"], ["press", "double"],["press_out", "double"], ["pressure", "double[_N*_N]"], ["vol", "double"],["vol_out", "double"], ["volume", "double[_N*_N]"], ["vsqrd", "double"],["vsqrd_out", "double"], ["x_max", "int"], ["x_min", "int"], ["xvel0", "double[_N*_N]"], ["y_max", "int"], ["y_min", "int"], ["yvel0", "double[_N*_N]"], ["__float__0", "double"], ["__float__0_25", "double"], ["__float__0_5", "double"]] }
+
+k = y_min
+while {k, (k < y_max)}
+{
+j = x_min
+while {j, (j < x_max)}
+{
+vsqrd = __float__0
+kv = k
+while {kv, (kv < (k + 1))}
+{
+jv = j
+while {jv, (jv < (j + 1))}
+{
+vsqrd = (vsqrd + (__float__0_25 * (exp(xvel0[(jv + (((x_max + 3) - (x_min - 2)) * kv))], 2) + exp(yvel0[(jv + (((x_max + 3) - (x_min - 2)) * kv))], 2))))
+jv = (jv + 1)
+}
+
+
+kv = (kv + 1)
+}
+
+
+cell_vol = volume[(j + (((x_max + 2) - (x_min - 2)) * k))]
+cell_mass = (cell_vol * density0[(j + (((x_max + 2) - (x_min - 2)) * k))])
+vol = (vol + cell_vol)
+mass = (mass + cell_mass)
+ie = (ie + (cell_mass * energy0[(j + (((x_max + 2) - (x_min - 2)) * k))]))
+ke = (ke + ((cell_mass * __float__0_5) * vsqrd))
+press = (press + (cell_vol * pressure[(j + (((x_max + 2) - (x_min - 2)) * k))]))
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

@@ -51,6 +51,22 @@ def listConcat(
     )
 
 
+def listSet(
+    regs: RegsType, mem: RegsType, gvars: GVarsType, *args: ValueRef
+) -> ReturnValue:
+
+    return ReturnValue(
+        Call(
+            "list_set",
+            parseTypeRef(args[0].type),
+            parseOperand(args[0], regs),
+            parseOperand(args[1], regs),
+            parseOperand(args[2], regs),
+        ),
+        None,
+    )
+
+
 def newTuple(
     regs: RegsType, mem: RegsType, gvars: GVarsType, *args: ValueRef
 ) -> ReturnValue:
@@ -106,6 +122,7 @@ fnModels: Dict[str, Callable[..., ReturnValue]] = {
     "_Z10listLengthIiEiP4listIT_E": listLength,
     "_Z7listGetIiET_P4listIS0_Ei": listGet,
     "_Z10listAppendIiEP4listIT_ES3_S1_": listAppend,
+    "_Z7listSetIiEP4listIT_ES3_S1_S1_": listSet,
     "getField": getField,
     "setField": setField,
     # names for set.h

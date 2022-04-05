@@ -1,0 +1,21 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["advec_vol", "double[_N*_N]"],["advec_vol_out", "double[_N*_N]"], ["density1", "double[_N*_N]"],["density1_out", "double[_N*_N]"], ["ener_flux", "double[_N*_N]"], ["energy1", "double[_N*_N]"],["energy1_out", "double[_N*_N]"], ["mass_flux_y", "double[_N*_N]"], ["post_ener", "double[_N*_N]"],["post_ener_out", "double[_N*_N]"], ["post_mass", "double[_N*_N]"],["post_mass_out", "double[_N*_N]"], ["pre_mass", "double[_N*_N]"],["pre_mass_out", "double[_N*_N]"], ["pre_vol", "double[_N*_N]"], ["vol_flux_y", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = y_min
+while {k, (k < y_max)}
+{
+j = x_min
+while {j, (j < x_max)}
+{
+pre_mass_out[(j + (((x_max + 3) - (x_min - 2)) * k))] = (density1[(j + (((x_max + 2) - (x_min - 2)) * k))] * pre_vol[(j + (((x_max + 3) - (x_min - 2)) * k))])
+post_mass_out[(j + (((x_max + 3) - (x_min - 2)) * k))] = ((pre_mass[(j + (((x_max + 3) - (x_min - 2)) * k))] + mass_flux_y[(j + (((x_max + 2) - (x_min - 2)) * k))]) - mass_flux_y[(j + (((x_max + 2) - (x_min - 2)) * (k + 1)))])
+post_ener_out[(j + (((x_max + 3) - (x_min - 2)) * k))] = ((((energy1[(j + (((x_max + 2) - (x_min - 2)) * k))] * pre_mass[(j + (((x_max + 3) - (x_min - 2)) * k))]) + ener_flux[(j + (((x_max + 3) - (x_min - 2)) * k))]) - ener_flux[(j + (((x_max + 3) - (x_min - 2)) * (k + 1)))]) / post_mass[(j + (((x_max + 3) - (x_min - 2)) * k))])
+advec_vol_out[(j + (((x_max + 3) - (x_min - 2)) * k))] = ((pre_vol[(j + (((x_max + 3) - (x_min - 2)) * k))] + vol_flux_y[(j + (((x_max + 2) - (x_min - 2)) * k))]) - vol_flux_y[(j + (((x_max + 2) - (x_min - 2)) * (k + 1)))])
+density1_out[(j + (((x_max + 2) - (x_min - 2)) * k))] = (post_mass[(j + (((x_max + 3) - (x_min - 2)) * k))] / advec_vol[(j + (((x_max + 3) - (x_min - 2)) * k))])
+energy1_out[(j + (((x_max + 2) - (x_min - 2)) * k))] = post_ener[(j + (((x_max + 3) - (x_min - 2)) * k))]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

@@ -1,0 +1,9 @@
+#INFO: { "loopvars": ["j"], "inputs": [["dx", "double"], ["vertexdx", "double[_N]"], ["x_max", "int"], ["x_min", "int"]] }
+
+j = (x_min - 2)
+while {j, (j < (x_max + 3))}
+{
+vertexdx[j] = dx
+j = (j + 1)
+}
+

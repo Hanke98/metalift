@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["j", "k"], "inputs": [["depth", "int"], ["vol_flux_y", "double[_N*_N]"],["vol_flux_y_out", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"]] }
+
+j = (x_min - depth)
+while {j, (j < (x_max + depth))}
+{
+k = 1
+while {k, (k < depth)}
+{
+vol_flux_y_out[(j + (((x_max + 2) - (x_min - 2)) * (1 - k)))] = -vol_flux_y[(j + (((x_max + 2) - (x_min - 2)) * (1 + k)))]
+k = (k + 1)
+}
+
+
+j = (j + 1)
+}
+

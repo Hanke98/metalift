@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["density0", "double[_N*_N]"],["density0_out", "double[_N*_N]"], ["depth", "int"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = (y_min - depth)
+while {k, (k < (y_max + depth))}
+{
+j = 1
+while {j, (j < depth)}
+{
+density0_out[((x_max + j) + (((x_max + 2) - (x_min - 2)) * k))] = density0[(((x_max + 1) - j) + (((x_max + 2) - (x_min - 2)) * k))]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

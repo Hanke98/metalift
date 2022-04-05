@@ -1,0 +1,9 @@
+#INFO: { "loopvars": ["j"], "inputs": [["celldx", "double[_N]"], ["dx", "double"], ["x_max", "int"], ["x_min", "int"]] }
+
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+celldx[j] = dx
+j = (j + 1)
+}
+

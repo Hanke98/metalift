@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["j", "k"], "inputs": [["depth", "int"], ["energy1", "double[_N*_N]"],["energy1_out", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"]] }
+
+j = (x_min - depth)
+while {j, (j < (x_max + depth))}
+{
+k = 1
+while {k, (k < depth)}
+{
+energy1_out[(j + (((x_max + 2) - (x_min - 2)) * (y_max + k)))] = energy1[(j + (((x_max + 2) - (x_min - 2)) * ((y_max + 1) - k)))]
+k = (k + 1)
+}
+
+
+j = (j + 1)
+}
+

@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["celldy", "double[_N]"], ["x_max", "int"], ["x_min", "int"], ["xarea", "double[_N*_N]"], ["y_max", "int"], ["y_min", "int"]] }
+
+k = (y_min - 2)
+while {k, (k < (y_max + 2))}
+{
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+xarea[(j + (((x_max + 3) - (x_min - 2)) * k))] = celldy[k]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

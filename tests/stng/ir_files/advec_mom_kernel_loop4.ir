@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["mass_flux_x", "double[_N*_N]"], ["node_flux", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"], ["__float__0_25", "double"]] }
+
+k = y_min
+while {k, (k < (y_max + 1))}
+{
+j = (x_min - 2)
+while {j, (j < (x_max + 2))}
+{
+node_flux[(j + (((x_max + 3) - (x_min - 2)) * k))] = (__float__0_25 * (((mass_flux_x[(j + (((x_max + 3) - (x_min - 2)) * (k - 1)))] + mass_flux_x[(j + (((x_max + 3) - (x_min - 2)) * k))]) + mass_flux_x[((j + 1) + (((x_max + 3) - (x_min - 2)) * (k - 1)))]) + mass_flux_x[((j + 1) + (((x_max + 3) - (x_min - 2)) * k))]))
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

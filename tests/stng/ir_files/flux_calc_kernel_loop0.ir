@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["dt", "double"], ["vol_flux_x", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["xarea", "double[_N*_N]"], ["xvel0", "double[_N*_N]"], ["xvel1", "double[_N*_N]"], ["y_max", "int"], ["y_min", "int"], ["__float__0_25", "double"]] }
+
+k = y_min
+while {k, (k < y_max)}
+{
+j = x_min
+while {j, (j < (x_max + 1))}
+{
+vol_flux_x[(j + (((x_max + 3) - (x_min - 2)) * k))] = (((__float__0_25 * dt) * xarea[(j + (((x_max + 3) - (x_min - 2)) * k))]) * (((xvel0[(j + (((x_max + 3) - (x_min - 2)) * k))] + xvel0[(j + (((x_max + 3) - (x_min - 2)) * (k + 1)))]) + xvel1[(j + (((x_max + 3) - (x_min - 2)) * k))]) + xvel1[(j + (((x_max + 3) - (x_min - 2)) * (k + 1)))]))
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

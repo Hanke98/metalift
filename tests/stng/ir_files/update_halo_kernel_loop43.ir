@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["depth", "int"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"], ["yvel1", "double[_N*_N]"],["yvel1_out", "double[_N*_N]"]] }
+
+k = (y_min - depth)
+while {k, (k < ((y_max + 1) + depth))}
+{
+j = 1
+while {j, (j < depth)}
+{
+yvel1_out[(((x_max + 1) + j) + (((x_max + 3) - (x_min - 2)) * k))] = yvel1[(((x_max + 1) - j) + (((x_max + 3) - (x_min - 2)) * k))]
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+

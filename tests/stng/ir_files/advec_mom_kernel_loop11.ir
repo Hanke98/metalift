@@ -1,0 +1,16 @@
+#INFO: { "loopvars": ["k", "j"], "inputs": [["mom_flux", "double[_N*_N]"], ["node_mass_post", "double[_N*_N]"], ["node_mass_pre", "double[_N*_N]"], ["vel1", "double[_N*_N]"],["vel1_out", "double[_N*_N]"], ["x_max", "int"], ["x_min", "int"], ["y_max", "int"], ["y_min", "int"], ["vel1_0_lower", "int"], ["vel1_0_upper", "int"], ["vel1_1_lower", "int"], ["vel1_1_upper", "int"]] }
+
+k = y_min
+while {k, (k < (y_max + 1))}
+{
+j = x_min
+while {j, (j < (x_max + 1))}
+{
+vel1_out[(j + ((vel1_0_upper - vel1_0_lower) * k))] = ((((vel1[(j + ((vel1_0_upper - vel1_0_lower) * k))] * node_mass_pre[(j + (((x_max + 3) - (x_min - 2)) * k))]) + mom_flux[(j + (((x_max + 3) - (x_min - 2)) * (k - 1)))]) - mom_flux[(j + (((x_max + 3) - (x_min - 2)) * k))]) / node_mass_post[(j + (((x_max + 3) - (x_min - 2)) * k))])
+j = (j + 1)
+}
+
+
+k = (k + 1)
+}
+
