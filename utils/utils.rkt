@@ -29,6 +29,9 @@
 (define (list-concat l1 l2)
   (append l1 l2))
 
+
+(define (list-set-noerr l i val)
+  (if (&& (>= i 0 ) (< i (length l))) (list-set l i val) l))
 ; tuple functions
 
 (define (make-tuple e1 . es)
