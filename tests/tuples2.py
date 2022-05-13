@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     fnName = "_Z4testii"
     loopsFile = "tests/tuples2.loops"
-    cvcPath = "cvc5"
+    cvcPath = "/Users/tommyjoseph/downloads/cvc5-macOS"
 
     (vars, invAndPs, preds, vc, loopAndPsInfo) = analyze(filename, fnName, loopsFile)
 
