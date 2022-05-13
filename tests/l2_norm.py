@@ -9,8 +9,8 @@ from metalift.smt_util import toSMT
 from metalift.synthesize_auto import synthesize
 
 
-def l2_norm(x: Var, y: Var):
-    return Call("l2_norm", Int(), x, y)
+def l2_norm(t: Tuple):
+   return Call("l2_norm", Int(), t)
 
 
 def grammar(ci: CodeInfo):
@@ -21,17 +21,17 @@ def grammar(ci: CodeInfo):
         r = ci.modifiedVars[0]
         (x, y) = ci.readVars
         summary = Choose(
-            Eq(r, l2_norm(x, y)), 
-            Eq(r, Add(x, y)),
-            Eq(r, Add(Mul(x, y), Mul(x, y))),
+            Eq(r, l2_norm(MakeTuple(x, y))), 
             Eq(r, Add(1, Add(Mul(x, x), Mul(y, y))))
         )
         return Synth(name, summary, *ci.modifiedVars, *ci.readVars)
 
 def targetLang():
-    x = Var("x", Int())
-    y = Var("y", Int())
-    l2_norm = FnDecl("l2_norm", Int(), Add(Mul(x, x), Mul(y, y)), x, y)
+    x = Var("x", Tuple(Int(), Int()))
+    helper = lambda index: TupleGet(x, IntLit(index))
+    l2_norm = FnDecl(
+        "l2_norm", Int(), Add(Mul(helper(0), helper(0)), Mul(helper(1), helper(1))), x
+    )
     return [l2_norm]
 
 
