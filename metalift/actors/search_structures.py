@@ -124,7 +124,7 @@ def search_crdt_structures(
         with multiprocessing.pool.ThreadPool() as pool:
             with open(reportFile, "w") as report:
                 while True:
-                    while queue_size < (mp.cpu_count() // 2):
+                    while queue_size < (mp.cpu_count() // 2 if mp.cpu_count() > 1 else 1):
                         next_structure_type = next(structureCandidates, None)
                         if next_structure_type is None:
                             break

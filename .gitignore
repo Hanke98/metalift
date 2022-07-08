@@ -12,3 +12,4 @@ tests/uninterp.smt
 benchmarks*.csv
 dist/
 rosette-packages/
+nixos.qcow2

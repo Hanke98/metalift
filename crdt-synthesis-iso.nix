@@ -35,17 +35,8 @@
 
   security.sudo.wheelNeedsPassword = false;
 
-  boot.postBootCommands = ''
-    rm -rf /home/demo
-    ${pkgs.rsync}/bin/rsync -r --owner --group --chown=demo:users --perms --chmod=u+rw /iso/demo /home
-    mkdir /home/demo/.racket/8.5/pkgs/rosette/bin
-    ln -s ${pkgs.z3}/bin/z3 /home/demo/.racket/8.5/pkgs/rosette/bin/z3
-  '';
-
-  services.getty.autologinUser = "demo";
-
-  isoImage.contents = [ {
-    source = let
+  boot.postBootCommands = let source =
+    let
       gitignoreSrc = pkgs.fetchFromGitHub { 
         owner = "hercules-ci";
         repo = "gitignore.nix";
@@ -56,13 +47,29 @@
       };
       inherit (import gitignoreSrc { inherit (pkgs) lib; }) gitignoreSource;
     in gitignoreSource ./.;
-    target = "/demo";
-  } {
-    # raco pkg install --scope-dir rosette-packages rosette
-    source = ./rosette-packages;
-    target = "/demo/.racket/8.5/pkgs";
-  } {
-    source = ./iso-racket-links.rktd;
-    target = "/demo/.racket/8.5/links.rktd";
-  } ];
+  in ''
+    echo "Loading source code for the artifact"
+
+    ${pkgs.rsync}/bin/rsync -r --owner --group --chown=demo:users --perms --chmod=u+rw ${source}/ /home/demo
+
+    mkdir -p /home/demo/.racket/8.5/pkgs
+    ln -s ${./iso-racket-links.rktd} /home/demo/.racket/8.5/links.rktd
+    ln -s ${./rosette-packages}/* /home/demo/.racket/8.5/pkgs/
+
+    rm /home/demo/.racket/8.5/pkgs/rosette
+    ${pkgs.rsync}/bin/rsync -r --owner --group --chown=demo:users --perms --chmod=u+rw ${./rosette-packages}/rosette/ /home/demo/.racket/8.5/pkgs/rosette
+    mkdir /home/demo/.racket/8.5/pkgs/rosette/bin
+    ln -s ${(pkgs.z3.overrideAttrs(self: {
+      version = "4.8.8";
+
+      src = pkgs.fetchFromGitHub {
+        owner = "Z3Prover";
+        repo = "z3";
+        rev = "z3-4.8.8";
+        hash = "sha256-qpmi75I27m89dhKSy8D2zkzqKpLoFBPRBrhzDB8axeY=";
+      };
+    }))}/bin/z3 /home/demo/.racket/8.5/pkgs/rosette/bin/z3
+  '';
+
+  services.getty.autologinUser = "demo";
 }
