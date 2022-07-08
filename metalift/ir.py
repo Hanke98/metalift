@@ -185,6 +185,8 @@ class Expr:
             return Let(*[f(a) for a in self.args])
         elif isinstance(self, TupleGet):
             return TupleGet(f(self.args[0]), *[f(a) for a in self.args[1:]])
+        elif isinstance(self, Choose):
+            return Choose(*[f(a) for a in self.args])
         elif isinstance(self, Lambda):
             return Lambda(self.type.args[0], f(self.args[0]), *[f(a) for a in self.args[1:]])
         elif isinstance(self, Call):
