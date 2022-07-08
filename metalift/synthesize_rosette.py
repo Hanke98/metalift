@@ -368,11 +368,17 @@ def synthesize(
                 for l in typing.cast(IO[bytes], procSynthesis.stdout).readlines()
             ]
 
+            errSynth = [
+                l.decode("utf-8").rstrip("\n")
+                for l in typing.cast(IO[bytes], procSynthesis.stderr).readlines()
+            ]
+
             exitCode = procSynthesis.wait()
             if exitCode != 0:
                 if len(resultSynth) > 0 and resultSynth[0] == "#f":
                     raise SynthesisFailed(f"Synthesis failed: exit code {exitCode}")
                 else:
+                    print(errSynth)
                     raise Exception(f"Rosette failed: exit code {exitCode}")
 
             ##### End of Synthesis #####

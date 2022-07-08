@@ -38,6 +38,8 @@
   boot.postBootCommands = ''
     rm -rf /home/demo
     ${pkgs.rsync}/bin/rsync -r --owner --group --chown=demo:users --perms --chmod=u+rw /iso/demo /home
+    mkdir /home/demo/.racket/8.5/pkgs/rosette/bin
+    ln -s ${pkgs.z3}/bin/z3 /home/demo/.racket/8.5/pkgs/rosette/bin/z3
   '';
 
   services.getty.autologinUser = "demo";
@@ -61,6 +63,6 @@
     target = "/demo/.racket/8.5/pkgs";
   } {
     source = ./iso-racket-links.rktd;
-    target = "/demo/.racket/links.rktd";
+    target = "/demo/.racket/8.5/links.rktd";
   } ];
 }

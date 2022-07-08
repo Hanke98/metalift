@@ -185,6 +185,8 @@ class Expr:
             return Let(*[f(a) for a in self.args])
         elif isinstance(self, TupleGet):
             return TupleGet(f(self.args[0]), *[f(a) for a in self.args[1:]])
+        elif isinstance(self, Lambda):
+            return Lambda(self.type.args[0], f(self.args[0]), *[f(a) for a in self.args[1:]])
         elif isinstance(self, Call):
             return Call(
                 typing.cast(str, f(self.args[0])),
@@ -257,6 +259,8 @@ class Expr:
                     return TupleGet(*newArgs)
                 elif isinstance(e, Let):
                     return Let(*newArgs)
+                elif isinstance(e, Lambda):
+                    return Lambda(e.type.args[0], newArgs[0], *newArgs[1:])
                 else:
                     raise Exception("NYI: %s" % e)
             else:
