@@ -11,3 +11,4 @@ tests/uninterp.rkt
 tests/uninterp.smt
 benchmarks*.csv
 dist/
+rosette-packages/
