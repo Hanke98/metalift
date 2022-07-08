@@ -231,6 +231,5 @@ def search_crdt_structures(
             print("\n\n".join([c.toRosette() for c in next_res]))  # type: ignore
     finally:
         for p in process_tracker.all_processes:
-            print("Terminating process", p.pid)
             p.terminate()
         process_tracker.all_processes = []
